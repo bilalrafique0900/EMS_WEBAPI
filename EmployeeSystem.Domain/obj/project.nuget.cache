@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1MKEuOWVBtN+sSlQM53VhRbgmuMUAi3cJ6MymTZxAKQ+WwzYI4vwp0fXw4Coz+45zRFrpEUivohQDukLUVVYNg==",
+  "dgSpecHash": "QmBg+nJ0XHcZnEF5e92mLripvUyWAdsqzvEEe/tq0t7vzQuqBH/XTBRvkG5kv5FwKH5D4Qt4puS85qKeY1z1uQ==",
   "success": true,
-  "projectFilePath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj",
+  "projectFilePath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

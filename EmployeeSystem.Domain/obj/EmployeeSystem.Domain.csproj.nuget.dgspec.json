@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj": {}
+    "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj": {
+    "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj",
+        "projectUniqueName": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj",
         "projectName": "EmployeeSystem.Domain",
-        "projectPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj",
+        "projectPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Domain\\obj\\",
+        "outputPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

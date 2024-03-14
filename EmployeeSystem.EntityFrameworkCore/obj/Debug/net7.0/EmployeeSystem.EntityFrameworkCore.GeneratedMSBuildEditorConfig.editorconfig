@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EmployeeSystem.EntityFrameworkCore
-build_property.ProjectDir = D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.EntityFrameworkCore\
+build_property.ProjectDir = D:\Digital Omega\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\

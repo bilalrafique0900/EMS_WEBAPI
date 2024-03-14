@@ -26,3 +26,17 @@ D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Domain\obj\Debug\net7.0\r
 D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Domain\obj\Debug\net7.0\EmployeeSystem.Domain.pdb
 D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Domain\obj\Debug\net7.0\EmployeeSystem.Domain.genruntimeconfig.cache
 D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Domain\obj\Debug\net7.0\ref\EmployeeSystem.Domain.dll
+D:\Digital Omega\EMS_WEBAPI\EmployeeSystem.Domain\bin\Debug\net7.0\EmployeeSystem.Domain.deps.json
+D:\Digital Omega\EMS_WEBAPI\EmployeeSystem.Domain\bin\Debug\net7.0\EmployeeSystem.Domain.runtimeconfig.json
+D:\Digital Omega\EMS_WEBAPI\EmployeeSystem.Domain\bin\Debug\net7.0\EmployeeSystem.Domain.dll
+D:\Digital Omega\EMS_WEBAPI\EmployeeSystem.Domain\bin\Debug\net7.0\EmployeeSystem.Domain.pdb
+D:\Digital Omega\EMS_WEBAPI\EmployeeSystem.Domain\obj\Debug\net7.0\EmployeeSystem.Domain.csproj.AssemblyReference.cache
+D:\Digital Omega\EMS_WEBAPI\EmployeeSystem.Domain\obj\Debug\net7.0\EmployeeSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Digital Omega\EMS_WEBAPI\EmployeeSystem.Domain\obj\Debug\net7.0\EmployeeSystem.Domain.AssemblyInfoInputs.cache
+D:\Digital Omega\EMS_WEBAPI\EmployeeSystem.Domain\obj\Debug\net7.0\EmployeeSystem.Domain.AssemblyInfo.cs
+D:\Digital Omega\EMS_WEBAPI\EmployeeSystem.Domain\obj\Debug\net7.0\EmployeeSystem.Domain.csproj.CoreCompileInputs.cache
+D:\Digital Omega\EMS_WEBAPI\EmployeeSystem.Domain\obj\Debug\net7.0\EmployeeSystem.Domain.dll
+D:\Digital Omega\EMS_WEBAPI\EmployeeSystem.Domain\obj\Debug\net7.0\refint\EmployeeSystem.Domain.dll
+D:\Digital Omega\EMS_WEBAPI\EmployeeSystem.Domain\obj\Debug\net7.0\EmployeeSystem.Domain.pdb
+D:\Digital Omega\EMS_WEBAPI\EmployeeSystem.Domain\obj\Debug\net7.0\EmployeeSystem.Domain.genruntimeconfig.cache
+D:\Digital Omega\EMS_WEBAPI\EmployeeSystem.Domain\obj\Debug\net7.0\ref\EmployeeSystem.Domain.dll

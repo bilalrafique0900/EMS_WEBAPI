@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Application\\EmployeeSystem.Application.csproj": {}
+    "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Application\\EmployeeSystem.Application.csproj": {}
   },
   "projects": {
-    "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Application.Contract\\EmployeeSystem.Application.Contracts.csproj": {
+    "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Application.Contract\\EmployeeSystem.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Application.Contract\\EmployeeSystem.Application.Contracts.csproj",
+        "projectUniqueName": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Application.Contract\\EmployeeSystem.Application.Contracts.csproj",
         "projectName": "EmployeeSystem.Application.Contracts",
-        "projectPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Application.Contract\\EmployeeSystem.Application.Contracts.csproj",
+        "projectPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Application.Contract\\EmployeeSystem.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Application.Contract\\obj\\",
+        "outputPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Application.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj": {
-                "projectPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj"
+              "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj": {
+                "projectPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj"
               },
-              "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj": {
-                "projectPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj"
+              "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj": {
+                "projectPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Application\\EmployeeSystem.Application.csproj": {
+    "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Application\\EmployeeSystem.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Application\\EmployeeSystem.Application.csproj",
+        "projectUniqueName": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Application\\EmployeeSystem.Application.csproj",
         "projectName": "EmployeeSystem.Application",
-        "projectPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Application\\EmployeeSystem.Application.csproj",
+        "projectPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Application\\EmployeeSystem.Application.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Application\\obj\\",
+        "outputPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -91,17 +91,17 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Application.Contract\\EmployeeSystem.Application.Contracts.csproj": {
-                "projectPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Application.Contract\\EmployeeSystem.Application.Contracts.csproj"
+              "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Application.Contract\\EmployeeSystem.Application.Contracts.csproj": {
+                "projectPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Application.Contract\\EmployeeSystem.Application.Contracts.csproj"
               },
-              "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj": {
-                "projectPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj"
+              "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj": {
+                "projectPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj"
               },
-              "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj": {
-                "projectPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj"
+              "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj": {
+                "projectPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj"
               },
-              "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Infra\\EmployeeSystem.Infra.csproj": {
-                "projectPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Infra\\EmployeeSystem.Infra.csproj"
+              "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Infra\\EmployeeSystem.Infra.csproj": {
+                "projectPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Infra\\EmployeeSystem.Infra.csproj"
               }
             }
           }
@@ -220,14 +220,14 @@
         }
       }
     },
-    "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj": {
+    "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj",
+        "projectUniqueName": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj",
         "projectName": "EmployeeSystem.Domain.Common",
-        "projectPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj",
+        "projectPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Common\\obj\\",
+        "outputPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -244,8 +244,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj": {
-                "projectPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj"
+              "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj": {
+                "projectPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj"
               }
             }
           }
@@ -293,14 +293,14 @@
         }
       }
     },
-    "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj": {
+    "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj",
+        "projectUniqueName": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj",
         "projectName": "EmployeeSystem.Domain",
-        "projectPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj",
+        "projectPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Domain\\obj\\",
+        "outputPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -390,14 +390,14 @@
         }
       }
     },
-    "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.EntityFrameworkCore\\EmployeeSystem.EntityFrameworkCore.csproj": {
+    "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.EntityFrameworkCore\\EmployeeSystem.EntityFrameworkCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.EntityFrameworkCore\\EmployeeSystem.EntityFrameworkCore.csproj",
+        "projectUniqueName": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.EntityFrameworkCore\\EmployeeSystem.EntityFrameworkCore.csproj",
         "projectName": "EmployeeSystem.EntityFrameworkCore",
-        "projectPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.EntityFrameworkCore\\EmployeeSystem.EntityFrameworkCore.csproj",
+        "projectPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.EntityFrameworkCore\\EmployeeSystem.EntityFrameworkCore.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.EntityFrameworkCore\\obj\\",
+        "outputPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.EntityFrameworkCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -414,8 +414,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj": {
-                "projectPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj"
+              "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj": {
+                "projectPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj"
               }
             }
           }
@@ -467,14 +467,14 @@
         }
       }
     },
-    "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Infra\\EmployeeSystem.Infra.csproj": {
+    "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Infra\\EmployeeSystem.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Infra\\EmployeeSystem.Infra.csproj",
+        "projectUniqueName": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Infra\\EmployeeSystem.Infra.csproj",
         "projectName": "EmployeeSystem.Infra",
-        "projectPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Infra\\EmployeeSystem.Infra.csproj",
+        "projectPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Infra\\EmployeeSystem.Infra.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Infra\\obj\\",
+        "outputPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -491,17 +491,17 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Application.Contract\\EmployeeSystem.Application.Contracts.csproj": {
-                "projectPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Application.Contract\\EmployeeSystem.Application.Contracts.csproj"
+              "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Application.Contract\\EmployeeSystem.Application.Contracts.csproj": {
+                "projectPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Application.Contract\\EmployeeSystem.Application.Contracts.csproj"
               },
-              "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj": {
-                "projectPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj"
+              "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj": {
+                "projectPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj"
               },
-              "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj": {
-                "projectPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj"
+              "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj": {
+                "projectPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj"
               },
-              "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.EntityFrameworkCore\\EmployeeSystem.EntityFrameworkCore.csproj": {
-                "projectPath": "D:\\Digital Omega\\EmployeeSystem\\Backend\\EmployeeSystem.EntityFrameworkCore\\EmployeeSystem.EntityFrameworkCore.csproj"
+              "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.EntityFrameworkCore\\EmployeeSystem.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.EntityFrameworkCore\\EmployeeSystem.EntityFrameworkCore.csproj"
               }
             }
           }
