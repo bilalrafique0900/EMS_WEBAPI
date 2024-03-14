@@ -1,0 +1,30 @@
+D:\Important\Backend\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Important\Backend\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Important\Backend\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Important\Backend\EmployeeSystem.UnitTest\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+D:\Important\Backend\EmployeeSystem.UnitTest\bin\Debug\PointOfSale.UnitTest.dll
+D:\Important\Backend\EmployeeSystem.UnitTest\bin\Debug\PointOfSale.UnitTest.pdb
+D:\Important\Backend\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Important\Backend\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Important\Backend\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Important\Backend\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Important\Backend\EmployeeSystem.UnitTest\obj\Debug\EmployeeSystem.UnitTest.csproj.AssemblyReference.cache
+D:\Important\Backend\EmployeeSystem.UnitTest\obj\Debug\EmployeeSystem.UnitTest.csproj.CoreCompileInputs.cache
+D:\Important\Backend\EmployeeSystem.UnitTest\obj\Debug\EmployeeSystem.UnitTest.csproj.CopyComplete
+D:\Important\Backend\EmployeeSystem.UnitTest\obj\Debug\PointOfSale.UnitTest.dll
+D:\Important\Backend\EmployeeSystem.UnitTest\obj\Debug\PointOfSale.UnitTest.pdb
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.UnitTest\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.UnitTest\bin\Debug\PointOfSale.UnitTest.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.UnitTest\bin\Debug\PointOfSale.UnitTest.pdb
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.UnitTest\obj\Debug\EmployeeSystem.UnitTest.csproj.AssemblyReference.cache
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.UnitTest\obj\Debug\EmployeeSystem.UnitTest.csproj.CoreCompileInputs.cache
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.UnitTest\obj\Debug\EmployeeSystem.UnitTest.csproj.CopyComplete
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.UnitTest\obj\Debug\PointOfSale.UnitTest.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.UnitTest\obj\Debug\PointOfSale.UnitTest.pdb

@@ -1,0 +1,30 @@
+D:\Important\Backend\EmployeeSystem.Common\bin\Debug\net7.0\EmployeeSystem.Domain.Common.deps.json
+D:\Important\Backend\EmployeeSystem.Common\bin\Debug\net7.0\EmployeeSystem.Domain.Common.dll
+D:\Important\Backend\EmployeeSystem.Common\bin\Debug\net7.0\EmployeeSystem.Domain.Common.pdb
+D:\Important\Backend\EmployeeSystem.Common\bin\Debug\net7.0\EmployeeSystem.Domain.dll
+D:\Important\Backend\EmployeeSystem.Common\bin\Debug\net7.0\EmployeeSystem.Domain.pdb
+D:\Important\Backend\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.csproj.AssemblyReference.cache
+D:\Important\Backend\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Important\Backend\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.AssemblyInfoInputs.cache
+D:\Important\Backend\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.AssemblyInfo.cs
+D:\Important\Backend\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.csproj.CoreCompileInputs.cache
+D:\Important\Backend\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.csproj.CopyComplete
+D:\Important\Backend\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.dll
+D:\Important\Backend\EmployeeSystem.Common\obj\Debug\net7.0\refint\EmployeeSystem.Domain.Common.dll
+D:\Important\Backend\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.pdb
+D:\Important\Backend\EmployeeSystem.Common\obj\Debug\net7.0\ref\EmployeeSystem.Domain.Common.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Common\bin\Debug\net7.0\EmployeeSystem.Domain.Common.deps.json
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Common\bin\Debug\net7.0\EmployeeSystem.Domain.Common.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Common\bin\Debug\net7.0\EmployeeSystem.Domain.Common.pdb
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Common\bin\Debug\net7.0\EmployeeSystem.Domain.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Common\bin\Debug\net7.0\EmployeeSystem.Domain.pdb
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.csproj.AssemblyReference.cache
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.AssemblyInfoInputs.cache
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.AssemblyInfo.cs
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.csproj.CoreCompileInputs.cache
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.csproj.CopyComplete
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Common\obj\Debug\net7.0\refint\EmployeeSystem.Domain.Common.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.pdb
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Common\obj\Debug\net7.0\ref\EmployeeSystem.Domain.Common.dll

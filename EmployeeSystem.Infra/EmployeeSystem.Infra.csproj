@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Repositories\TeacherClass\**" />
+    <EmbeddedResource Remove="Repositories\TeacherClass\**" />
+    <None Remove="Repositories\TeacherClass\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.151" />
+    <PackageReference Include="DinkToPdf" Version="1.0.8" />
+    <PackageReference Include="itext7" Version="8.0.0" />
+    <PackageReference Include="itext7.bouncy-castle-adapter" Version="8.0.0" />
+    <PackageReference Include="MailKit" Version="4.2.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="7.0.10" />
+    <PackageReference Include="MimeKit" Version="4.2.0" />
+    <PackageReference Include="MySqlConnector" Version="2.2.7" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.3.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeSystem.Application.Contract\EmployeeSystem.Application.Contracts.csproj" />
+    <ProjectReference Include="..\EmployeeSystem.Common\EmployeeSystem.Domain.Common.csproj" />
+    <ProjectReference Include="..\EmployeeSystem.Domain\EmployeeSystem.Domain.csproj" />
+    <ProjectReference Include="..\EmployeeSystem.EntityFrameworkCore\EmployeeSystem.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+
+</Project>

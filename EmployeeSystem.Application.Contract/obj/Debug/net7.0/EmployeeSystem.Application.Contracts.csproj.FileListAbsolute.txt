@@ -1,0 +1,34 @@
+D:\Important\Backend\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Application.Contracts.deps.json
+D:\Important\Backend\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Application.Contracts.dll
+D:\Important\Backend\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Application.Contracts.pdb
+D:\Important\Backend\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Domain.Common.dll
+D:\Important\Backend\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Domain.dll
+D:\Important\Backend\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Domain.Common.pdb
+D:\Important\Backend\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Domain.pdb
+D:\Important\Backend\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.csproj.AssemblyReference.cache
+D:\Important\Backend\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Important\Backend\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.AssemblyInfoInputs.cache
+D:\Important\Backend\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.AssemblyInfo.cs
+D:\Important\Backend\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\Important\Backend\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.csproj.CopyComplete
+D:\Important\Backend\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.dll
+D:\Important\Backend\EmployeeSystem.Application.Contract\obj\Debug\net7.0\refint\EmployeeSystem.Application.Contracts.dll
+D:\Important\Backend\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.pdb
+D:\Important\Backend\EmployeeSystem.Application.Contract\obj\Debug\net7.0\ref\EmployeeSystem.Application.Contracts.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Application.Contracts.deps.json
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Application.Contracts.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Application.Contracts.pdb
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Domain.Common.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Domain.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Domain.Common.pdb
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Domain.pdb
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.csproj.AssemblyReference.cache
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.AssemblyInfoInputs.cache
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.AssemblyInfo.cs
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.csproj.CopyComplete
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Application.Contract\obj\Debug\net7.0\refint\EmployeeSystem.Application.Contracts.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.pdb
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Application.Contract\obj\Debug\net7.0\ref\EmployeeSystem.Application.Contracts.dll

@@ -1,0 +1,17 @@
+D:\Muzzammil\Education\Backend\EducationSystem.Application.Contract\bin\Debug\net7.0\EducationSystem.Application.Contracts.deps.json
+D:\Muzzammil\Education\Backend\EducationSystem.Application.Contract\bin\Debug\net7.0\EducationSystem.Application.Contracts.dll
+D:\Muzzammil\Education\Backend\EducationSystem.Application.Contract\bin\Debug\net7.0\EducationSystem.Application.Contracts.pdb
+D:\Muzzammil\Education\Backend\EducationSystem.Application.Contract\bin\Debug\net7.0\EducationSystem.Domain.Common.dll
+D:\Muzzammil\Education\Backend\EducationSystem.Application.Contract\bin\Debug\net7.0\EducationSystem.Domain.dll
+D:\Muzzammil\Education\Backend\EducationSystem.Application.Contract\bin\Debug\net7.0\EducationSystem.Domain.Common.pdb
+D:\Muzzammil\Education\Backend\EducationSystem.Application.Contract\bin\Debug\net7.0\EducationSystem.Domain.pdb
+D:\Muzzammil\Education\Backend\EducationSystem.Application.Contract\obj\Debug\net7.0\EducationSystem.Application.Contracts.csproj.AssemblyReference.cache
+D:\Muzzammil\Education\Backend\EducationSystem.Application.Contract\obj\Debug\net7.0\EducationSystem.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Muzzammil\Education\Backend\EducationSystem.Application.Contract\obj\Debug\net7.0\EducationSystem.Application.Contracts.AssemblyInfoInputs.cache
+D:\Muzzammil\Education\Backend\EducationSystem.Application.Contract\obj\Debug\net7.0\EducationSystem.Application.Contracts.AssemblyInfo.cs
+D:\Muzzammil\Education\Backend\EducationSystem.Application.Contract\obj\Debug\net7.0\EducationSystem.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\Muzzammil\Education\Backend\EducationSystem.Application.Contract\obj\Debug\net7.0\EducationSystem.Application.Contracts.csproj.CopyComplete
+D:\Muzzammil\Education\Backend\EducationSystem.Application.Contract\obj\Debug\net7.0\EducationSystem.Application.Contracts.dll
+D:\Muzzammil\Education\Backend\EducationSystem.Application.Contract\obj\Debug\net7.0\refint\EducationSystem.Application.Contracts.dll
+D:\Muzzammil\Education\Backend\EducationSystem.Application.Contract\obj\Debug\net7.0\EducationSystem.Application.Contracts.pdb
+D:\Muzzammil\Education\Backend\EducationSystem.Application.Contract\obj\Debug\net7.0\ref\EducationSystem.Application.Contracts.dll

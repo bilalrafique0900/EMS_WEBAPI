@@ -1,0 +1,34 @@
+D:\Important\Backend\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.deps.json
+D:\Important\Backend\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.runtimeconfig.json
+D:\Important\Backend\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.dll
+D:\Important\Backend\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.pdb
+D:\Important\Backend\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.Domain.dll
+D:\Important\Backend\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.Domain.pdb
+D:\Important\Backend\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.csproj.AssemblyReference.cache
+D:\Important\Backend\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Important\Backend\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.AssemblyInfoInputs.cache
+D:\Important\Backend\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.AssemblyInfo.cs
+D:\Important\Backend\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+D:\Important\Backend\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.csproj.CopyComplete
+D:\Important\Backend\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.dll
+D:\Important\Backend\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\refint\EmployeeSystem.EntityFrameworkCore.dll
+D:\Important\Backend\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.pdb
+D:\Important\Backend\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.genruntimeconfig.cache
+D:\Important\Backend\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\ref\EmployeeSystem.EntityFrameworkCore.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.deps.json
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.runtimeconfig.json
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.pdb
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.Domain.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.Domain.pdb
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.csproj.AssemblyReference.cache
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.AssemblyInfoInputs.cache
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.AssemblyInfo.cs
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.csproj.CopyComplete
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\refint\EmployeeSystem.EntityFrameworkCore.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.pdb
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.genruntimeconfig.cache
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\ref\EmployeeSystem.EntityFrameworkCore.dll

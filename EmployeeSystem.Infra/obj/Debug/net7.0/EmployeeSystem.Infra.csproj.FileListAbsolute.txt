@@ -1,0 +1,42 @@
+D:\Important\Backend\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Infra.deps.json
+D:\Important\Backend\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Infra.dll
+D:\Important\Backend\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Infra.pdb
+D:\Important\Backend\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Application.Contracts.dll
+D:\Important\Backend\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Domain.Common.dll
+D:\Important\Backend\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Domain.dll
+D:\Important\Backend\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.dll
+D:\Important\Backend\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Application.Contracts.pdb
+D:\Important\Backend\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Domain.Common.pdb
+D:\Important\Backend\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Domain.pdb
+D:\Important\Backend\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.pdb
+D:\Important\Backend\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.csproj.AssemblyReference.cache
+D:\Important\Backend\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Important\Backend\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.AssemblyInfoInputs.cache
+D:\Important\Backend\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.AssemblyInfo.cs
+D:\Important\Backend\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.csproj.CoreCompileInputs.cache
+D:\Important\Backend\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.csproj.CopyComplete
+D:\Important\Backend\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.dll
+D:\Important\Backend\EmployeeSystem.Infra\obj\Debug\net7.0\refint\EmployeeSystem.Infra.dll
+D:\Important\Backend\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.pdb
+D:\Important\Backend\EmployeeSystem.Infra\obj\Debug\net7.0\ref\EmployeeSystem.Infra.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Infra.deps.json
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Infra.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Infra.pdb
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Application.Contracts.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Domain.Common.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Domain.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Application.Contracts.pdb
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Domain.Common.pdb
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Domain.pdb
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.pdb
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.csproj.AssemblyReference.cache
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.AssemblyInfoInputs.cache
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.AssemblyInfo.cs
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.csproj.CoreCompileInputs.cache
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.csproj.CopyComplete
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Infra\obj\Debug\net7.0\refint\EmployeeSystem.Infra.dll
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.pdb
+D:\Digital Omega\EmployeeSystem\Backend\EmployeeSystem.Infra\obj\Debug\net7.0\ref\EmployeeSystem.Infra.dll

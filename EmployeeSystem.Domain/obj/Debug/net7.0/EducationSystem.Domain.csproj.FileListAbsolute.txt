@@ -1,0 +1,14 @@
+D:\Muzzammil\Education\Backend\EducationSystem.Domain\bin\Debug\net7.0\EducationSystem.Domain.deps.json
+D:\Muzzammil\Education\Backend\EducationSystem.Domain\bin\Debug\net7.0\EducationSystem.Domain.runtimeconfig.json
+D:\Muzzammil\Education\Backend\EducationSystem.Domain\bin\Debug\net7.0\EducationSystem.Domain.dll
+D:\Muzzammil\Education\Backend\EducationSystem.Domain\bin\Debug\net7.0\EducationSystem.Domain.pdb
+D:\Muzzammil\Education\Backend\EducationSystem.Domain\obj\Debug\net7.0\EducationSystem.Domain.csproj.AssemblyReference.cache
+D:\Muzzammil\Education\Backend\EducationSystem.Domain\obj\Debug\net7.0\EducationSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Muzzammil\Education\Backend\EducationSystem.Domain\obj\Debug\net7.0\EducationSystem.Domain.AssemblyInfoInputs.cache
+D:\Muzzammil\Education\Backend\EducationSystem.Domain\obj\Debug\net7.0\EducationSystem.Domain.AssemblyInfo.cs
+D:\Muzzammil\Education\Backend\EducationSystem.Domain\obj\Debug\net7.0\EducationSystem.Domain.csproj.CoreCompileInputs.cache
+D:\Muzzammil\Education\Backend\EducationSystem.Domain\obj\Debug\net7.0\EducationSystem.Domain.dll
+D:\Muzzammil\Education\Backend\EducationSystem.Domain\obj\Debug\net7.0\refint\EducationSystem.Domain.dll
+D:\Muzzammil\Education\Backend\EducationSystem.Domain\obj\Debug\net7.0\EducationSystem.Domain.pdb
+D:\Muzzammil\Education\Backend\EducationSystem.Domain\obj\Debug\net7.0\EducationSystem.Domain.genruntimeconfig.cache
+D:\Muzzammil\Education\Backend\EducationSystem.Domain\obj\Debug\net7.0\ref\EducationSystem.Domain.dll
