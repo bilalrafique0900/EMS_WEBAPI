@@ -19,6 +19,7 @@ namespace EmployeeSystem.Application.Contracts.DTO
 
         public Guid? GroupId { get; set; }
         public string? GroupName { get; set; }
+     
         public Guid? HiringManagerId { get; set; }
         public string? ManagerName { get; set; }
         public Guid? PostHostId { get; set; }

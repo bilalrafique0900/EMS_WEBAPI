@@ -4,12 +4,16 @@ using EmployeeSystem.Infra.Dapper;
 using EmployeeSystem.Infra.IRepositories.IMasterData;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
+using Dapper;
+using EmployeeSystem.Application.Contracts.DTO;
+using EmployeeSystem.Application.Contracts.ResponseModel;
+using EmployeeSystem.Domain.Common.Enumerations;
 
 namespace EmployeeSystem.Infra.Repositories.MasterData
 {
     public class DepartmentRepository : GenericRepository<Department>, IDepartmentRepository
     {
-        private readonly EmployeeDBContext _dbContext;
+        private readonly EmployeeDBContext _dbContext; 
         public IDapperConfig _dapper { get; set; }
         public DepartmentRepository(EmployeeDBContext appDbContext, IDapperConfig dapper) : base(appDbContext)
         {
@@ -24,6 +28,7 @@ namespace EmployeeSystem.Infra.Repositories.MasterData
                 rec.UpdatedDate = DateTime.Now;
                 rec.DepartmentName = obj.DepartmentName;
                 rec.UpdatedBy = obj.CreatedBy;
+                rec.GroupId = obj.GroupId;
             }
             else
             {
@@ -59,6 +64,25 @@ namespace EmployeeSystem.Infra.Repositories.MasterData
         {
             var rec = await _dbContext.Departments.IgnoreQueryFilters().Where(x => x.IsDeleted != true).OrderBy(x => x.CreatedDate).ToListAsync();
             return rec;
+        }
+        public async Task<IEnumerable<Department>> GetDepartmentsByGroupId(Guid GroupId)
+        {
+            var rec = await _dbContext.Departments.IgnoreQueryFilters().Where(x => x.IsDeleted != true && x.GroupId==GroupId).OrderBy(x => x.CreatedDate).ToListAsync();
+            return rec;
+        }
+        public async Task<ApiResponseModel> GetAllDepartments(int pageNo, int pageSize, string searchText)
+        {
+            var parameters = new DynamicParameters();
+            parameters.Add("@pageNo", pageNo);
+            parameters.Add("@pageSize", pageSize);
+            parameters.Add("@seaechText", searchText);
+            var result = await _dapper.QueryAsync<DepartmentDto>("GetDepartments", parameters, CommandType.StoredProcedure).ConfigureAwait(true);
+            return new ApiResponseModel
+            {
+                Status = true,
+                Message = StaticVariables.RecordFounded,
+                Data = result
+            };
         }
     }
 }

@@ -11,8 +11,10 @@ namespace EmployeeSystem.Domain.Models
     {
         [Key]
         public Guid DepartmentId { get; set; }
+        [Required]
+        public Guid GroupId { get; set; }
 
         [Required, StringLength(30)]
-        public string DepartmentName { get; set; }=string.Empty;
+        public string DepartmentName { get; set; }=string.Empty;  
     }
 }

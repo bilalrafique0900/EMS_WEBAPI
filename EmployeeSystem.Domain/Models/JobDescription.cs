@@ -13,6 +13,7 @@ public partial class JobDescription: BaseModel
     public Guid? DepartmentId { get; set; }
     [StringLength(100)]
     public Guid? GroupId { get; set; }
+   
     [StringLength(100)]
     public Guid? HiringManagerId { get; set; }
     [StringLength(100)]

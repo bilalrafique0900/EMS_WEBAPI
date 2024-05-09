@@ -42,7 +42,7 @@ namespace EmployeeSystem.Application.Controllers.MasterData
         }
         [HttpGet]
         [Route("group-list")]
-        public async Task<IActionResult> GetGroups(int pageNo, int pageSize,string searchText="")
+        public async Task<IActionResult> GetGroups(int pageNo, int pageSize,string searchText="") 
         {
             return Ok(new ApiResponseModel
             {
@@ -54,7 +54,7 @@ namespace EmployeeSystem.Application.Controllers.MasterData
         [HttpDelete]
         [Route("delete/{id}")]
         public async Task<IActionResult> Delete(Guid id)
-        {
+        { 
             return Ok(new ApiResponseModel
             {
                 Status = true,

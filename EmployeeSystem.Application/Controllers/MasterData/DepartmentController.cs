@@ -41,13 +41,24 @@ namespace EmployeeSystem.Application.Controllers.MasterData
             });
         }
         [HttpGet]
+        [Route("department-by-groupid")]
+        public async Task<IActionResult> GetDepartmentsByGroupId(Guid GroupId)
+        {
+            return Ok(new ApiResponseModel
+            {
+                Status = true,
+                Data = await _departmentRepository.GetDepartmentsByGroupId(GroupId),
+                Message = StaticVariables.SaveUpdatedRecord
+            });
+        }
+        [HttpGet]
         [Route("department-list")]
         public async Task<IActionResult> GetDepartments(int pageNo, int pageSize,string searchText="")
         {
             return Ok(new ApiResponseModel
             {
                 Status = true,
-                Data = await _departmentRepository.GetAll(pageNo, pageSize, c => c.IsDeleted != true &&  c.DepartmentName.Contains(searchText)),
+                Data = await _departmentRepository.GetAllDepartments(pageNo, pageSize, searchText),
                 Message = StaticVariables.SaveUpdatedRecord
             });
         }

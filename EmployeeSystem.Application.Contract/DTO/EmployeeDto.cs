@@ -16,6 +16,10 @@ namespace EmployeeSystem.Application.Contracts.DTO
         
         public Guid? EmployeeDesignationId { get; set; }
         public Guid? JobDescriptionId { get; set; }
+        public Guid? GroupId { get; set; }
+        public Guid? DepartmentId { get; set; }
+        public Guid? FunctionId { get; set; }
+        public Guid? LevelId { get; set; }
         public string? FirstName { get; set; }
         public string? MiddleName { get; set; }
         public string? LastName { get; set; }
@@ -30,6 +34,7 @@ namespace EmployeeSystem.Application.Contracts.DTO
         public Guid? MaritalStatusId { get; set; }
         public Guid? EducationTypeId { get; set; }
         public bool? IsPicturePermission { get; set; }
+        public Guid? EmploymentTypeId { get; set; }
         public string? Picture { get; set; }
         public string? Base64 { get; set; }
         public string? StreetAddress { get; set; }

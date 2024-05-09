@@ -39,6 +39,9 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
+                    b.Property<Guid>("GroupId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<bool?>("IsActive")
                         .HasColumnType("bit");
 
@@ -151,6 +154,10 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("datetime2");
 
+                    b.Property<Guid?>("DepartmentId")
+                        .HasMaxLength(100)
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<Guid?>("EducationTypeId")
                         .HasMaxLength(100)
                         .HasColumnType("uniqueidentifier");
@@ -167,11 +174,23 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<Guid?>("EmploymentTypeId")
+                        .HasMaxLength(100)
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<string>("FirstName")
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
+                    b.Property<Guid?>("FunctionId")
+                        .HasMaxLength(100)
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<Guid?>("GenderId")
+                        .HasMaxLength(100)
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("GroupId")
                         .HasMaxLength(100)
                         .HasColumnType("uniqueidentifier");
 
@@ -194,6 +213,10 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                     b.Property<string>("LastName")
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
+
+                    b.Property<Guid?>("LevelId")
+                        .HasMaxLength(100)
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid?>("MaritalStatusId")
                         .HasMaxLength(100)
@@ -538,6 +561,43 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                     b.ToTable("EmployeePreviousExperiences");
                 });
 
+            modelBuilder.Entity("EmployeeSystem.Domain.Models.Functions", b =>
+                {
+                    b.Property<Guid>("FunctionId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("CreatedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("FunctionName")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.Property<Guid>("GroupId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool?>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<Guid?>("UpdatedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("FunctionId");
+
+                    b.ToTable("Functions");
+                });
+
             modelBuilder.Entity("EmployeeSystem.Domain.Models.Group", b =>
                 {
                     b.Property<Guid>("GroupId")
@@ -714,6 +774,43 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                     b.HasKey("LovTypeId");
 
                     b.ToTable("LOVType");
+                });
+
+            modelBuilder.Entity("EmployeeSystem.Domain.Models.Level", b =>
+                {
+                    b.Property<Guid>("LevelId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("CreatedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool?>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("IsExecutive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("LevelName")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.Property<Guid?>("UpdatedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("LevelId");
+
+                    b.ToTable("Levels");
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.PermissionItem", b =>

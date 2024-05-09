@@ -128,6 +128,5 @@ namespace EmployeeSystem.Infra.Repositories
                 throw new Exception($"could not be saved: {ex.Message}");
             }
         }
-
     }
 }

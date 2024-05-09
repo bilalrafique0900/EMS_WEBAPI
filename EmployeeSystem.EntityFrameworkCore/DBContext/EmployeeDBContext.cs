@@ -33,10 +33,11 @@ public partial class EmployeeDBContext : DbContext
     public virtual DbSet<EmployeeFamily> EmployeeFamilys { get; set; }
     public virtual DbSet<EmployeeChildren> EmployeeChildrens { get; set; }
     public virtual DbSet<Department> Departments { get; set; }
+    public virtual DbSet<Functions> Functions { get; set; }
     public virtual DbSet<Group> Groups { get; set; }
+    public virtual DbSet<Level> Levels { get; set; }
     public virtual DbSet<PostHost> PostHosts { get; set; }
     public virtual DbSet<JobDescription> JobDescriptions { get; set; }
-
 
 
 

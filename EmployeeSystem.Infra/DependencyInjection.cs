@@ -49,9 +49,11 @@ namespace EmployeeSystem.Infra
             services.AddTransient<IEmployeeRepository, EmployeeRepository>();
             services.AddTransient<IEmployeeDocumentRepository, EmployeeDocumentRepository>();
             services.AddTransient<IDepartmentRepository, DepartmentRepository>();
+            services.AddTransient<IFunctionRepository, FunctionRepository>();
             services.AddTransient<IGroupRepository, GroupRepository>();
             services.AddTransient<IPostHostRepository, PostHostRepository>();
             services.AddTransient<IJobDescriptionRepository, JobDescriptionRepository>();
+            services.AddTransient<ILevelRepository,LevelRepository>();
             services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
             services.AddTransient<IReportRepository, ReportRepository>();
             services.AddSingleton<IMailService, MailService>();

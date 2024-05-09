@@ -15,6 +15,16 @@ public partial class Employee: BaseModel
     [StringLength(100)]
     public Guid? EmployeeDesignationId { get; set; }
     [StringLength(100)]
+    public Guid? EmploymentTypeId { get; set; }
+    [StringLength(100)]
+    public Guid? GroupId { get; set; }
+    [StringLength(100)]
+    public Guid? LevelId { get; set; }
+    [StringLength(100)]
+    public Guid? DepartmentId { get; set; }
+    [StringLength(100)]
+    public Guid? FunctionId { get; set; }
+    [StringLength(100)]
     public string? FirstName { get; set; }
     [StringLength(100)]
     public string? MiddleName { get; set; }
