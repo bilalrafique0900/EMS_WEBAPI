@@ -9,6 +9,7 @@ namespace EmployeeSystem.Infra.IRepositories.IMasterData
         Task<bool> Active(Guid id);
         Task<bool> Delete(Guid id);
         Task<IEnumerable<DropdownListDto>> GetAllLevels();
+        Task<IEnumerable<Level>> GetLevelsByGroupId(Guid GroupId);
 
 
     }

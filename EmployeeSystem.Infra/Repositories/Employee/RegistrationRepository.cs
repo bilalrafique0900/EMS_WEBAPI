@@ -5,7 +5,7 @@ using EmployeeSystem.Domain.Common.Enumerations;
 using EmployeeSystem.EntityFrameworkCore.DBContext;
 using EmployeeSystem.Domain.Models;
 using EmployeeSystem.Infra.Dapper;
-using EmployeeSystem.Infra.IRepositories.IEmployee;
+using EmployeeSystem.Infra.IRepositories.IEmployee;  
 using Microsoft.EntityFrameworkCore;
 using System.Data;
 using Microsoft.Extensions.Logging;
@@ -31,6 +31,7 @@ namespace EmployeeSystem.Infra.Repositories.Employee
             _mapper = mapper;
             _logger = logger;
             _hub = hub;
+            
         }
         public async Task<Guid> AddUpdate(EmployeeDto employee)
         {

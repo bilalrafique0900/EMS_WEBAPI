@@ -5,6 +5,7 @@ using EmployeeSystem.Infra.IRepositories.IMasterData;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MailKit.Search;
+using EmployeeSystem.Infra.Repositories.MasterData;
 
 namespace EmployeeSystem.Application.Controllers.MasterData
 {
@@ -62,6 +63,17 @@ namespace EmployeeSystem.Application.Controllers.MasterData
             {
                 Status = true,
                 Data = await _levelRepository.Delete(id),
+                Message = StaticVariables.SaveUpdatedRecord
+            });
+        }
+        [HttpGet]
+        [Route("level-by-groupid")]
+        public async Task<IActionResult> GetLevelsByGroupId(Guid GroupId)
+        {
+            return Ok(new ApiResponseModel
+            {
+                Status = true,
+                Data = await _levelRepository.GetLevelsByGroupId(GroupId),
                 Message = StaticVariables.SaveUpdatedRecord
             });
         }

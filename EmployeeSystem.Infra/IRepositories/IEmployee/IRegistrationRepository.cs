@@ -8,7 +8,7 @@ namespace EmployeeSystem.Infra.IRepositories.IEmployee
     {
         Task<Guid> AddUpdate(EmployeeDto user);
         Task<Guid> AddUpdateEducation(EmployeeEducationDto employee);
-        Task<Guid> AddUpdatePreviousExperience(EmployeePreviousExperienceDto user);
+        Task<Guid> AddUpdatePreviousExperience(EmployeePreviousExperienceDto user);    
         Task<IEnumerable<EmployeeEducation>> GetEducationById(Guid employeeId);
         Task<IEnumerable<EmployeePreviousExperience>> GetExperienceById(Guid employeeId);
         Task<string> GetEmployeeCode();

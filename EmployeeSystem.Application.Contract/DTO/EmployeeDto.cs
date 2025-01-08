@@ -14,7 +14,7 @@ namespace EmployeeSystem.Application.Contracts.DTO
         public string? EmployeeCode { get; set; }
         //public string? temporaryCode { get; set; }
         
-        public Guid? EmployeeDesignationId { get; set; }
+        public Guid? EmployeeDesignationId { get; set; } 
         public Guid? JobDescriptionId { get; set; }
         public Guid? GroupId { get; set; }
         public Guid? DepartmentId { get; set; }

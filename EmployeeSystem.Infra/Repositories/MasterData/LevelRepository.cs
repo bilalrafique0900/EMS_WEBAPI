@@ -72,6 +72,19 @@ namespace EmployeeSystem.Infra.Repositories.MasterData
                                                                         }).ToListAsync();
             return list;
         }
+        public async Task<IEnumerable<Level>> GetLevelsByGroupId(Guid GroupId)
+        {
+            if (GroupId ==new Guid("6fb7bfc8-2689-4d04-1f56-08dc4346dcda"))
+            {
+              var  rec = await _dbContext.Levels.IgnoreQueryFilters().Where(x => x.IsDeleted != true && x.IsExecutive == true).OrderBy(x => x.CreatedDate).ToListAsync();
+                return rec;
+            }
+            else
+            {
+               var rec = await _dbContext.Levels.IgnoreQueryFilters().Where(x => x.IsDeleted != true && x.IsExecutive != true).OrderBy(x => x.CreatedDate).ToListAsync();
+                return rec;
+            }
+        }
 
     }
 }
