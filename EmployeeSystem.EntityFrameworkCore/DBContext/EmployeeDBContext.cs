@@ -14,7 +14,6 @@ public partial class EmployeeDBContext : DbContext
     public EmployeeDBContext(DbContextOptions options) : base(options)
     {
     }
-
     public virtual DbSet<User> Users { get; set; }
     public virtual DbSet<Role> Roles { get; set; }
     public virtual DbSet<PermissionItem> PermissionItems { get; set; }  
@@ -38,6 +37,8 @@ public partial class EmployeeDBContext : DbContext
     public virtual DbSet<Level> Levels { get; set; }
     public virtual DbSet<PostHost> PostHosts { get; set; }
     public virtual DbSet<JobDescription> JobDescriptions { get; set; }
+
+    public virtual DbSet<Files> Files { get; set; }
 
 
 

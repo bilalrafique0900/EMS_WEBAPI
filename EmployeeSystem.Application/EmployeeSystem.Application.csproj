@@ -68,7 +68,7 @@
 
   <ItemGroup>
     <Folder Include="Properties\PublishProfiles\" />
-    <Folder Include="Uploads\" />
+    <Folder Include="Uploads\CVs\" />
     <Folder Include="wwwroot\profilePictures\" />
   </ItemGroup>
 

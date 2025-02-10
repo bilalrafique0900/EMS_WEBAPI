@@ -6,6 +6,7 @@ using EmployeeSystem.Infra.IRepositories;
 using EmployeeSystem.Infra.IRepositories.IContract;
 using EmployeeSystem.Infra.IRepositories.IDocument;
 using EmployeeSystem.Infra.IRepositories.IEmployee;
+using EmployeeSystem.Infra.IRepositories.IFile;
 using EmployeeSystem.Infra.IRepositories.IJobDescription;
 using EmployeeSystem.Infra.IRepositories.ILovType;
 using EmployeeSystem.Infra.IRepositories.IMasterData;
@@ -17,6 +18,7 @@ using EmployeeSystem.Infra.Repositories;
 using EmployeeSystem.Infra.Repositories.Contract;
 using EmployeeSystem.Infra.Repositories.Document;
 using EmployeeSystem.Infra.Repositories.Employee;
+using EmployeeSystem.Infra.Repositories.File;
 using EmployeeSystem.Infra.Repositories.JobDescription;
 using EmployeeSystem.Infra.Repositories.MasterData;
 using EmployeeSystem.Infra.Repositories.Report;
@@ -56,6 +58,7 @@ namespace EmployeeSystem.Infra
             services.AddTransient<ILevelRepository,LevelRepository>();
             services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
             services.AddTransient<IReportRepository, ReportRepository>();
+            services.AddTransient<IFileRepository, FileRepository>();
             services.AddSingleton<IMailService, MailService>();
 
             return services;

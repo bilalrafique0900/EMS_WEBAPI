@@ -56,7 +56,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.HasKey("DepartmentId");
 
-                    b.ToTable("Departments");
+                    b.ToTable("Departments", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.Document", b =>
@@ -115,7 +115,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.HasKey("DocumentId");
 
-                    b.ToTable("Documents");
+                    b.ToTable("Documents", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.Employee", b =>
@@ -281,7 +281,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.HasKey("EmployeeId");
 
-                    b.ToTable("Employees");
+                    b.ToTable("Employees", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.EmployeeChildren", b =>
@@ -326,7 +326,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.HasKey("ChildrenId");
 
-                    b.ToTable("EmployeeChildrens");
+                    b.ToTable("EmployeeChildrens", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.EmployeeDocument", b =>
@@ -368,7 +368,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.HasKey("EmployeeDocumentId");
 
-                    b.ToTable("EmployeeDocuments");
+                    b.ToTable("EmployeeDocuments", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.EmployeeEducation", b =>
@@ -412,7 +412,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.HasKey("EducationId");
 
-                    b.ToTable("EmployeeEducations");
+                    b.ToTable("EmployeeEducations", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.EmployeeFamily", b =>
@@ -504,7 +504,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.HasKey("FamilyId");
 
-                    b.ToTable("EmployeeFamilys");
+                    b.ToTable("EmployeeFamilys", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.EmployeePreviousExperience", b =>
@@ -558,7 +558,42 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.HasKey("PreviousExperienceId");
 
-                    b.ToTable("EmployeePreviousExperiences");
+                    b.ToTable("EmployeePreviousExperiences", (string)null);
+                });
+
+            modelBuilder.Entity("EmployeeSystem.Domain.Models.Files", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ContentType")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("FileName")
+                        .IsRequired()
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
+
+                    b.Property<string>("FilePath")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<Guid>("JobDescriptionId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Status")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Files", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.Functions", b =>
@@ -595,7 +630,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.HasKey("FunctionId");
 
-                    b.ToTable("Functions");
+                    b.ToTable("Functions", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.Group", b =>
@@ -629,7 +664,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.HasKey("GroupId");
 
-                    b.ToTable("Groups");
+                    b.ToTable("Groups", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.JobDescription", b =>
@@ -689,7 +724,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.HasKey("JobDescriptionId");
 
-                    b.ToTable("JobDescriptions");
+                    b.ToTable("JobDescriptions", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.LOV", b =>
@@ -734,7 +769,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.HasKey("LovId");
 
-                    b.ToTable("LOVS");
+                    b.ToTable("LOVS", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.LOVType", b =>
@@ -773,7 +808,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.HasKey("LovTypeId");
 
-                    b.ToTable("LOVType");
+                    b.ToTable("LOVType", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.Level", b =>
@@ -810,7 +845,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.HasKey("LevelId");
 
-                    b.ToTable("Levels");
+                    b.ToTable("Levels", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.PermissionItem", b =>
@@ -868,7 +903,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.HasKey("PermissionItemId");
 
-                    b.ToTable("PermissionItems");
+                    b.ToTable("PermissionItems", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.PostHost", b =>
@@ -902,7 +937,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.HasKey("PostHostId");
 
-                    b.ToTable("PostHosts");
+                    b.ToTable("PostHosts", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.ReportConfig", b =>
@@ -942,7 +977,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.HasKey("ReportConfigId");
 
-                    b.ToTable("ReportConfigs");
+                    b.ToTable("ReportConfigs", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.ReportConfigDetail", b =>
@@ -968,7 +1003,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.HasKey("ReportConfigDetailId");
 
-                    b.ToTable("ReportConfigDetails");
+                    b.ToTable("ReportConfigDetails", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.Role", b =>
@@ -1014,7 +1049,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.HasKey("RoleId");
 
-                    b.ToTable("Roles");
+                    b.ToTable("Roles", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.RolePermission", b =>
@@ -1031,7 +1066,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.HasKey("RolePermissionId");
 
-                    b.ToTable("RolePermissions");
+                    b.ToTable("RolePermissions", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.Template", b =>
@@ -1079,7 +1114,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.HasKey("TemplateId");
 
-                    b.ToTable("Templates");
+                    b.ToTable("Templates", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.User", b =>
@@ -1125,7 +1160,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.HasKey("UserId");
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.UserToken", b =>
@@ -1160,7 +1195,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.HasKey("UserUserTokenId");
 
-                    b.ToTable("UserTokens");
+                    b.ToTable("UserTokens", (string)null);
                 });
 #pragma warning restore 612, 618
         }

@@ -3714,19 +3714,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.EntityFrameworkCore\\EmployeeSystem.EntityFrameworkCore.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\employee system\\EMS_WEBAPI\\EmployeeSystem.EntityFrameworkCore\\EmployeeSystem.EntityFrameworkCore.csproj",
       "projectName": "EmployeeSystem.EntityFrameworkCore",
-      "projectPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.EntityFrameworkCore\\EmployeeSystem.EntityFrameworkCore.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\employee system\\EMS_WEBAPI\\EmployeeSystem.EntityFrameworkCore\\EmployeeSystem.EntityFrameworkCore.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.EntityFrameworkCore\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\employee system\\EMS_WEBAPI\\EmployeeSystem.EntityFrameworkCore\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3734,14 +3739,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj": {
-              "projectPath": "D:\\Digital Omega\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj"
+            "C:\\Users\\Admin\\Desktop\\employee system\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\employee system\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj"
             }
           }
         }
@@ -3750,7 +3756,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net7.0": {
@@ -3789,7 +3801,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -6,6 +6,7 @@ using EmployeeSystem.Infra;
 using EmployeeSystem.Infra.MySql;
 using EmployeeSystem.Infra.Services;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http.Features;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.OpenApi.Models;
@@ -47,8 +48,8 @@ builder.Logging.AddSerilog(logger);
 
 builder.Services.AddSignalR(hubOptions =>
 {
-   // hubOptions.EnableDetailedErrors = true;
-   // hubOptions.KeepAliveInterval = TimeSpan.FromSeconds(10);
+    // hubOptions.EnableDetailedErrors = true;
+    // hubOptions.KeepAliveInterval = TimeSpan.FromSeconds(10);
     hubOptions.HandshakeTimeout = TimeSpan.FromSeconds(60);
 });
 builder.Services.AddCors(builder =>
@@ -59,19 +60,28 @@ builder.Services.AddCors(builder =>
         .AllowAnyMethod()
         .AllowCredentials()
         .SetIsOriginAllowed((hosts) => true)
-        ); 
+        );
 });
-builder.Services.AddEndpointsApiExplorer();
-builder.Services
-    .AddControllers(config =>
-    {
-    })
-    .AddNewtonsoftJson(option =>
-    {
-        //option.UseMemberCasing();//for use pascal case output format
-    });
 
-builder.Services.AddResponseCaching(x => x.MaximumBodySize = 1024);
+builder.Services.Configure<FormOptions>(options =>
+{
+    options.MultipartBodyLengthLimit = 10 * 1024 * 1024;
+});
+
+builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddControllers();
+
+//builder.Services
+//    .AddControllers(config =>
+//    {
+//    })
+//    .AddNewtonsoftJson(option =>
+//    {
+//        //option.UseMemberCasing();//for use pascal case output format
+//    });
+
+//builder.Services.AddResponseCaching(x => x.MaximumBodySize = 1024);
 //Swagger Configuration
 builder.Services.AddSwaggerGen(options =>
 {
@@ -93,8 +103,6 @@ builder.Services.AddSwaggerGen(options =>
     options.AddSecurityRequirement(new OpenApiSecurityRequirement
                     {{new OpenApiSecurityScheme { Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "Bearer" }},new List<string>()}});
 });
-
-
 builder.Services.AddJwtAuthentication(configuration);
 builder.Services.InjectPersistenceDependencies(configuration);
 builder.Services.AddAuthorization(option =>
@@ -107,22 +115,25 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddAutoMapper(typeof(Mapping));
 
 //Mini Profiler
-if (Convert.ToBoolean(configuration["MiniProfiler:IsEnabled"]))
-{
-    builder.Services.AddMiniProfiler(options =>
-    {
-        options.RouteBasePath = "/profiler";
+//if (Convert.ToBoolean(configuration["MiniProfiler:IsEnabled"]))
+//{
+//    builder.Services.AddMiniProfiler(options =>
+//    {
+//        options.RouteBasePath = "/profiler";
 
-        options.ColorScheme = StackExchange.Profiling.ColorScheme.Light;
-        options.PopupRenderPosition = StackExchange.Profiling.RenderPosition.BottomLeft;
-        options.PopupShowTimeWithChildren = true;
-        options.PopupShowTrivial = true;
-        options.SqlFormatter = new StackExchange.Profiling.SqlFormatters.InlineFormatter();
-        options.Storage = new SqlServerStorage(SqlServerConnection);
-    }).AddEntityFramework();
-}
+//        options.ColorScheme = StackExchange.Profiling.ColorScheme.Light;
+//        options.PopupRenderPosition = StackExchange.Profiling.RenderPosition.BottomLeft;
+//        options.PopupShowTimeWithChildren = true;
+//        options.PopupShowTrivial = true;
+//        options.SqlFormatter = new StackExchange.Profiling.SqlFormatters.InlineFormatter();
+//        options.Storage = new SqlServerStorage(SqlServerConnection);
+//    }).AddEntityFramework();
+//}
 builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
 builder.Services.Configure<FirebaseSettings>(builder.Configuration.GetSection("Firebase"));
+
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -156,22 +167,25 @@ app.UseSwaggerUI();
 //    DbInitializer Initializer = new();
 //    Initializer.Initialize(dbContext);
 //}
-app.UseStaticFiles(new StaticFileOptions()
-{
-    OnPrepareResponse = ctx => {
-        ctx.Context.Response.Headers.Append("Access-Control-Allow-Origin", "*");
-        ctx.Context.Response.Headers.Append("Access-Control-Allow-Headers",
-          "Origin, X-Requested-With, Content-Type, Accept");
-    },
 
-});
-app.UseFileServer(new FileServerOptions
-{
-    FileProvider = new PhysicalFileProvider(
-           Path.Combine(builder.Environment.ContentRootPath, "wwwroot")),
-    RequestPath = "/wwwroot",
-    EnableDirectoryBrowsing = true
-});
+//app.UseStaticFiles(new StaticFileOptions()
+//{
+//    OnPrepareResponse = ctx =>
+//    {
+//        ctx.Context.Response.Headers.Append("Access-Control-Allow-Origin", "*");
+//        ctx.Context.Response.Headers.Append("Access-Control-Allow-Headers",
+//          "Origin, X-Requested-With, Content-Type, Accept");
+//    },
+
+//});
+
+//app.UseFileServer(new FileServerOptions
+//{
+//    FileProvider = new PhysicalFileProvider(
+//           Path.Combine(builder.Environment.ContentRootPath, "wwwroot")),
+//    RequestPath = "/wwwroot",
+//    EnableDirectoryBrowsing = true
+//});
 
 //app.UseHttpsRedirection();
 
@@ -189,5 +203,7 @@ app.MapHub<NotificationHub>("/communication");
 //    endpoints.MapControllers();
 //    endpoints.MapHub<NotificationHub>("/notification");
 //});
+
 app.ConfigureDefaultExceptionMiddleware();
 app.Run();
+
