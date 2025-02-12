@@ -180,7 +180,12 @@ publish/
 appsettings.json
 appsettings.*.json
 
+**/bin/
+**/obj/
+
 bin/*
+
+
 
 
 # Config Files
@@ -192,8 +197,7 @@ dotnet-tools.json
 1070820855-10861-QR8U7F1J-100320220441_1.pdf
 
 
-Sadad/Sadad.Service/connectionStrings.json
-Sadad/Sadad.Service/appsettings.json
+
 # StaticFiles
 
 
@@ -465,6 +469,49 @@ $RECYCLE.BIN/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-*api_keys.json
+/EmployeeSystem.Application/bin/*
+/EmployeeSystem.Application/obj/*
+/EmployeeSystem.Application/appsettings.json
+/EmployeeSystem.Application/connectionStrings.json
 
-*.config
+/EmployeeSystem.Application.Contract/bin/*
+/EmployeeSystem.Application.Contract/obj/*
+/EmployeeSystem.Application.Contract/appsettings.json
+/EmployeeSystem.Application.Contract/connectionStrings.json
+
+/EmployeeSystem.Common/bin/*
+/EmployeeSystem.Common/obj/*
+/EmployeeSystem.Common/appsettings.json
+/EmployeeSystem.Common/connectionStrings.json
+
+/EmployeeSystem.Domain/bin/*
+/EmployeeSystem.Domain/obj/*
+/EmployeeSystem.Domain/appsettings.json
+/EmployeeSystem.Domain/connectionStrings.json
+
+/EmployeeSystem.EntityFrameworkCore/bin/*
+/EmployeeSystem.EntityFrameworkCore/obj/*
+/EmployeeSystem.EntityFrameworkCore/appsettings.json
+/EmployeeSystem.EntityFrameworkCore/connectionStrings.json
+
+/EmployeeSystem.Infra/bin/*
+/EmployeeSystem.Infra/obj/*
+/EmployeeSystem.Infra/appsettings.json
+/EmployeeSystem.Infra/connectionStrings.json
+
+/BusinessControl.API/obj/BaseetaCRM.API.csproj.nuget.dgspec.json
+/BusinessControl.API/obj/BaseetaCRM.API.csproj.nuget.g.props
+/BusinessControl.API/obj/BaseetaCRM.API.csproj.nuget.g.targets
+/BusinessControl.API/obj/project.assets.json
+/BusinessControl.API/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+/BusinessControl.API/obj/Debug/net8.0/BaseetaCRM.API.AssemblyInfo.cs
+/BusinessControl.API/obj/Debug/net8.0/BaseetaCRM.API.GeneratedMSBuildEditorConfig.editorconfig
+/KaizenDataModel/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+/KaizenDataModel/obj/Debug/net8.0/KaizenDataModel.AssemblyInfo.cs
+/KaizenDataModel/obj/Debug/net8.0/KaizenDataModel.GeneratedMSBuildEditorConfig.editorconfig
+/KaizenDataModel/obj/KaizenDataModel.csproj.nuget.dgspec.json
+/KaizenDataModel/obj/KaizenDataModel.csproj.nuget.g.props
+/KaizenDataModel/obj/KaizenDataModel.csproj.nuget.g.targets
+/KaizenDataModel/obj/project.assets.json
+/BusinessControl.API/StaticFiles/
+
