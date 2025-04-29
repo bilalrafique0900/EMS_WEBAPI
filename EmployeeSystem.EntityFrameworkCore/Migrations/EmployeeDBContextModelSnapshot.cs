@@ -303,6 +303,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                     b.HasKey("EmployeeId");
 
                     b.ToTable("Employees");
+<<<<<<< HEAD
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.EmployeeAccessories", b =>
@@ -324,6 +325,8 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                     b.HasIndex("EmployeeId");
 
                     b.ToTable("EmployeeAccessories");
+=======
+>>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.EmployeeChildren", b =>
@@ -687,6 +690,9 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("GroupCode")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("GroupName")
                         .IsRequired()
                         .HasMaxLength(30)
@@ -868,13 +874,13 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Group")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool?>("IsActive")
                         .HasColumnType("bit");
 
                     b.Property<bool?>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<bool?>("IsExecutive")
                         .HasColumnType("bit");
 
                     b.Property<string>("LevelName")
@@ -891,6 +897,78 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                     b.HasKey("LevelId");
 
                     b.ToTable("Levels");
+<<<<<<< HEAD
+=======
+                });
+
+            modelBuilder.Entity("EmployeeSystem.Domain.Models.Onboarding", b =>
+                {
+                    b.Property<Guid>("OnboardingId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("ClientType")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("CompanyAddress")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("CompanyName")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("ContactEmailAddress")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("ContactPersonName")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("ContactPhoneNumber")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<Guid?>("CreatedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool?>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("NumberOfEmployees")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<DateTime?>("OnboardingStartDate")
+                        .HasMaxLength(100)
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ServicesRequired")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("SpecialRequirementOrNotes")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<Guid?>("UpdatedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("OnboardingId");
+
+                    b.ToTable("Onboardings");
+>>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.PermissionItem", b =>
@@ -1241,6 +1319,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                     b.HasKey("UserUserTokenId");
 
                     b.ToTable("UserTokens");
+<<<<<<< HEAD
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.EmployeeAccessories", b =>
@@ -1260,6 +1339,8 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                     b.Navigation("Accessories");
 
                     b.Navigation("Employee");
+=======
+>>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
                 });
 #pragma warning restore 612, 618
         }

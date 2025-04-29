@@ -83,6 +83,7 @@ C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.Infra\obj\Debug
 C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.Infra\obj\Debug\net7.0\refint\EmployeeSystem.Infra.dll
 C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.pdb
 C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.Infra\obj\Debug\net7.0\ref\EmployeeSystem.Infra.dll
+<<<<<<< HEAD
 D:\Projects\EMS_WEBAPI\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Infra.deps.json
 D:\Projects\EMS_WEBAPI\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Infra.dll
 D:\Projects\EMS_WEBAPI\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Infra.pdb
@@ -105,3 +106,26 @@ D:\Projects\EMS_WEBAPI\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infr
 D:\Projects\EMS_WEBAPI\EmployeeSystem.Infra\obj\Debug\net7.0\refint\EmployeeSystem.Infra.dll
 D:\Projects\EMS_WEBAPI\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.pdb
 D:\Projects\EMS_WEBAPI\EmployeeSystem.Infra\obj\Debug\net7.0\ref\EmployeeSystem.Infra.dll
+=======
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Infra.deps.json
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Infra.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Infra.pdb
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Application.Contracts.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Domain.Common.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Domain.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Application.Contracts.pdb
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Domain.Common.pdb
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.Domain.pdb
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Infra\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.pdb
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.csproj.AssemblyReference.cache
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.AssemblyInfoInputs.cache
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.AssemblyInfo.cs
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.csproj.CoreCompileInputs.cache
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.csproj.CopyComplete
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Infra\obj\Debug\net7.0\refint\EmployeeSystem.Infra.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Infra\obj\Debug\net7.0\EmployeeSystem.Infra.pdb
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Infra\obj\Debug\net7.0\ref\EmployeeSystem.Infra.dll
+>>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958

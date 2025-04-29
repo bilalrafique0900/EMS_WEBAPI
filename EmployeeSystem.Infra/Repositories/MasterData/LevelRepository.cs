@@ -26,7 +26,7 @@ namespace EmployeeSystem.Infra.Repositories.MasterData
                 rec.UpdatedDate = DateTime.Now;
                 rec.LevelName = obj.LevelName;
                 rec.UpdatedBy = obj.CreatedBy;
-                rec.IsExecutive = obj.IsExecutive;
+                rec.Group = obj.Group;
             }
             else
             {
@@ -74,14 +74,31 @@ namespace EmployeeSystem.Infra.Repositories.MasterData
         }
         public async Task<IEnumerable<Level>> GetLevelsByGroupId(Guid GroupId)
         {
-            if (GroupId ==new Guid("6fb7bfc8-2689-4d04-1f56-08dc4346dcda"))
+            if (GroupId == new Guid("6fb7bfc8-2689-4d04-1f56-08dc4346dcda"))
             {
-              var  rec = await _dbContext.Levels.IgnoreQueryFilters().Where(x => x.IsDeleted != true && x.IsExecutive == true).OrderBy(x => x.CreatedDate).ToListAsync();
+                var rec = await _dbContext.Levels.IgnoreQueryFilters().Where(x => x.IsDeleted != true && x.Group == "Executive").OrderBy(x => x.CreatedDate).ToListAsync();
+                return rec;
+            }
+            else if (GroupId == new Guid("4d44eeba-3142-418a-b051-bc3f7fb6b965")) {
+                var rec = await _dbContext.Levels.IgnoreQueryFilters().Where(x => x.IsDeleted != true && x.Group == "CSuite").OrderBy(x => x.CreatedDate).ToListAsync();
                 return rec;
             }
             else
             {
-               var rec = await _dbContext.Levels.IgnoreQueryFilters().Where(x => x.IsDeleted != true && x.IsExecutive != true).OrderBy(x => x.CreatedDate).ToListAsync();
+                var rec = await _dbContext.Levels.IgnoreQueryFilters().Where(x => x.IsDeleted != true && x.Group != "Executive" && x.Group != "CSuite").OrderBy(x => x.CreatedDate).ToListAsync();
+                return rec;
+            }
+        }
+        public async Task<IEnumerable<Level>> GetLevelsByGroupCode(string GroupCode)
+        {
+            if (GroupCode!=null && GroupCode!="" && GroupCode!="null")
+            {
+                var rec = await _dbContext.Levels.IgnoreQueryFilters().Where(x => x.IsDeleted != true && x.Group == GroupCode).OrderBy(x => x.CreatedDate).ToListAsync();
+                return rec;
+            }
+            else
+            {
+                var rec = await _dbContext.Levels.IgnoreQueryFilters().Where(x => x.IsDeleted != true && x.Group != "Executive" && x.Group != "C-Suite").OrderBy(x => x.CreatedDate).ToListAsync();
                 return rec;
             }
         }

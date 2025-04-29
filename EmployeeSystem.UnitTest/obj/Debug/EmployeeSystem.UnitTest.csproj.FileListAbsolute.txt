@@ -58,6 +58,7 @@ C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.UnitTest\obj\De
 C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.UnitTest\obj\Debug\Employee.F0B27773.Up2Date
 C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.UnitTest\obj\Debug\PointOfSale.UnitTest.dll
 C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.UnitTest\obj\Debug\PointOfSale.UnitTest.pdb
+<<<<<<< HEAD
 D:\Projects\EMS_WEBAPI\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 D:\Projects\EMS_WEBAPI\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 D:\Projects\EMS_WEBAPI\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -73,3 +74,20 @@ D:\Projects\EMS_WEBAPI\EmployeeSystem.UnitTest\obj\Debug\EmployeeSystem.UnitTest
 D:\Projects\EMS_WEBAPI\EmployeeSystem.UnitTest\obj\Debug\Employee.F0B27773.Up2Date
 D:\Projects\EMS_WEBAPI\EmployeeSystem.UnitTest\obj\Debug\PointOfSale.UnitTest.dll
 D:\Projects\EMS_WEBAPI\EmployeeSystem.UnitTest\obj\Debug\PointOfSale.UnitTest.pdb
+=======
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.UnitTest\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.UnitTest\bin\Debug\PointOfSale.UnitTest.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.UnitTest\bin\Debug\PointOfSale.UnitTest.pdb
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.UnitTest\obj\Debug\EmployeeSystem.UnitTest.csproj.AssemblyReference.cache
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.UnitTest\obj\Debug\EmployeeSystem.UnitTest.csproj.CoreCompileInputs.cache
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.UnitTest\obj\Debug\EmployeeSystem.UnitTest.csproj.CopyComplete
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.UnitTest\obj\Debug\PointOfSale.UnitTest.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.UnitTest\obj\Debug\PointOfSale.UnitTest.pdb
+>>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958

@@ -14,5 +14,6 @@ namespace EmployeeSystem.Domain.Models
 
         [Required, StringLength(30)]
         public string GroupName { get; set; }
+        public string? GroupCode { get; set; }
     }
 }

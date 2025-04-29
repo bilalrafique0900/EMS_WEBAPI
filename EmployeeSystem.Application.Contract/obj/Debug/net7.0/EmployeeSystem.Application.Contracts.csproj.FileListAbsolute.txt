@@ -67,6 +67,7 @@ C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.Application.Con
 C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.Application.Contract\obj\Debug\net7.0\refint\EmployeeSystem.Application.Contracts.dll
 C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.pdb
 C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.Application.Contract\obj\Debug\net7.0\ref\EmployeeSystem.Application.Contracts.dll
+<<<<<<< HEAD
 D:\Projects\EMS_WEBAPI\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Application.Contracts.deps.json
 D:\Projects\EMS_WEBAPI\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Application.Contracts.dll
 D:\Projects\EMS_WEBAPI\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Application.Contracts.pdb
@@ -85,3 +86,22 @@ D:\Projects\EMS_WEBAPI\EmployeeSystem.Application.Contract\obj\Debug\net7.0\Empl
 D:\Projects\EMS_WEBAPI\EmployeeSystem.Application.Contract\obj\Debug\net7.0\refint\EmployeeSystem.Application.Contracts.dll
 D:\Projects\EMS_WEBAPI\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.pdb
 D:\Projects\EMS_WEBAPI\EmployeeSystem.Application.Contract\obj\Debug\net7.0\ref\EmployeeSystem.Application.Contracts.dll
+=======
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Application.Contracts.deps.json
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Application.Contracts.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Application.Contracts.pdb
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Domain.Common.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Domain.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Domain.Common.pdb
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Application.Contract\bin\Debug\net7.0\EmployeeSystem.Domain.pdb
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.csproj.AssemblyReference.cache
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.AssemblyInfoInputs.cache
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.AssemblyInfo.cs
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.csproj.CopyComplete
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Application.Contract\obj\Debug\net7.0\refint\EmployeeSystem.Application.Contracts.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Application.Contract\obj\Debug\net7.0\EmployeeSystem.Application.Contracts.pdb
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.Application.Contract\obj\Debug\net7.0\ref\EmployeeSystem.Application.Contracts.dll
+>>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958

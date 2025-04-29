@@ -67,6 +67,7 @@ C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.EntityFramework
 C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.pdb
 C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.genruntimeconfig.cache
 C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\ref\EmployeeSystem.EntityFrameworkCore.dll
+<<<<<<< HEAD
 D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.deps.json
 D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.runtimeconfig.json
 D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.dll
@@ -85,3 +86,22 @@ D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\refin
 D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.pdb
 D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.genruntimeconfig.cache
 D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\ref\EmployeeSystem.EntityFrameworkCore.dll
+=======
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.deps.json
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.runtimeconfig.json
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.pdb
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.Domain.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.Domain.pdb
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.csproj.AssemblyReference.cache
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.AssemblyInfoInputs.cache
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.AssemblyInfo.cs
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.csproj.CopyComplete
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\refint\EmployeeSystem.EntityFrameworkCore.dll
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.pdb
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.genruntimeconfig.cache
+D:\Digital Omega\DO Employee System\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\ref\EmployeeSystem.EntityFrameworkCore.dll
+>>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958

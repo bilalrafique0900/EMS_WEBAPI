@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj": {}
   },
   "projects": {
@@ -12,13 +13,27 @@
         "projectPath": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj",
         "packagesPath": "C:\\Users\\DO-User\\.nuget\\packages\\",
         "outputPath": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Common\\obj\\",
+=======
+    "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj": {}
+  },
+  "projects": {
+    "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj",
+        "projectName": "EmployeeSystem.Domain.Common",
+        "projectPath": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Common\\EmployeeSystem.Domain.Common.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Common\\obj\\",
+>>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\DO-User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +47,13 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj": {
                 "projectPath": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj"
+=======
+              "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj": {
+                "projectPath": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj"
+>>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
               }
             }
           }
@@ -42,6 +62,7 @@
           "warnAsError": [
             "NU1605"
           ]
+<<<<<<< HEAD
         },
         "restoreAuditProperties": {
           "enableAudit": "true",
@@ -49,6 +70,9 @@
           "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
+=======
+        }
+>>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       },
       "frameworks": {
         "net7.0": {
@@ -83,6 +107,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
         }
       }
@@ -95,13 +120,28 @@
         "projectPath": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj",
         "packagesPath": "C:\\Users\\DO-User\\.nuget\\packages\\",
         "outputPath": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Domain\\obj\\",
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj",
+        "projectName": "EmployeeSystem.Domain",
+        "projectPath": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Domain\\obj\\",
+>>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\DO-User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -121,6 +161,7 @@
           "warnAsError": [
             "NU1605"
           ]
+<<<<<<< HEAD
         },
         "restoreAuditProperties": {
           "enableAudit": "true",
@@ -128,6 +169,9 @@
           "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
+=======
+        }
+>>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       },
       "frameworks": {
         "net7.0": {
@@ -190,7 +234,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+>>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
         }
       }
     }
