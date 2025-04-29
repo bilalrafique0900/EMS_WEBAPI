@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "Hash": "yxDw8NOPQLk/OTT9jnHV3zActIUBiEk8GBOkfBYBZjE=",
-=======
-  "Hash": "qQ6OSZ/aXvMKNj9ZIPjcxOyz3xcy+BGHWAtaUc3POH8=",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
+  "Hash": "9I5k2y/Q/v4Yj595fDaAvD0XMdYHFmBIwHrMyFVGrUc=",
   "Source": "EmployeeSystem.Application",
   "BasePath": "_content/EmployeeSystem.Application",
   "Mode": "Default",
@@ -14,1268 +10,1125 @@
     {
       "Name": "EmployeeSystem.Application\\wwwroot",
       "Source": "EmployeeSystem.Application",
-<<<<<<< HEAD
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\CVs\\53922c67-e6b3-44ef-8484-3babe222157e\\pexels-matthew-montrone-230847-1324803 (1).jpg",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\CVs\\53922c67-e6b3-44ef-8484-3babe222157e\\pexels-matthew-montrone-230847-1324803 (1).jpg",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "CVs/53922c67-e6b3-44ef-8484-3babe222157e/pexels-matthew-montrone-230847-1324803 (1).jpg",
+      "RelativePath": "CVs/53922c67-e6b3-44ef-8484-3babe222157e/pexels-matthew-montrone-230847-1324803 (1)#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "ojrj9ast8k",
+      "Integrity": "NCPqoSO4GP1O66tEBODaaV2drKc5ZfWH8lFLmVA9dl8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\CVs\\53922c67-e6b3-44ef-8484-3babe222157e\\pexels-matthew-montrone-230847-1324803 (1).jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\CVs\\74d944ce-2949-4489-844d-798f9da55041\\pexels-matthew-montrone-230847-1324803.jpg",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\CVs\\74d944ce-2949-4489-844d-798f9da55041\\pexels-matthew-montrone-230847-1324803.jpg",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "CVs/74d944ce-2949-4489-844d-798f9da55041/pexels-matthew-montrone-230847-1324803.jpg",
+      "RelativePath": "CVs/74d944ce-2949-4489-844d-798f9da55041/pexels-matthew-montrone-230847-1324803#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "ojrj9ast8k",
+      "Integrity": "NCPqoSO4GP1O66tEBODaaV2drKc5ZfWH8lFLmVA9dl8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\CVs\\74d944ce-2949-4489-844d-798f9da55041\\pexels-matthew-montrone-230847-1324803.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\CVs\\74d944ce-2949-4489-844d-798f9da55041\\Reader_en_install.exe",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\CVs\\74d944ce-2949-4489-844d-798f9da55041\\Reader_en_install.exe",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "CVs/74d944ce-2949-4489-844d-798f9da55041/Reader_en_install.exe",
+      "RelativePath": "CVs/74d944ce-2949-4489-844d-798f9da55041/Reader_en_install#[.{fingerprint}]?.exe",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "yutoxn2csm",
+      "Integrity": "1rXeW0g5/CT8BtxdhaVeGFbJeJtfjAWTVX+7Rykmafc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\CVs\\74d944ce-2949-4489-844d-798f9da55041\\Reader_en_install.exe"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\CVs\\82e644a2-b225-4ae1-a1f6-951421ec55e9\\Monthly budget tracker.xlsx",
+      "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\CVs\\7a69fa9c-b517-46e3-b20d-12bb3c73ff0b\\educationalinfo.PNG",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\CVs\\7a69fa9c-b517-46e3-b20d-12bb3c73ff0b\\educationalinfo.PNG",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "CVs/7a69fa9c-b517-46e3-b20d-12bb3c73ff0b/educationalinfo.PNG",
+      "RelativePath": "CVs/7a69fa9c-b517-46e3-b20d-12bb3c73ff0b/educationalinfo#[.{fingerprint}]?.PNG",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "yb7mccivco",
+      "Integrity": "YhV4gWy4jGL7cBnAd3gufJ3/3BLAmNQf96IUYZSIp3s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\CVs\\7a69fa9c-b517-46e3-b20d-12bb3c73ff0b\\educationalinfo.PNG"
     },
     {
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\CVs\\7a69fa9c-b517-46e3-b20d-12bb3c73ff0b\\employeelist.PNG",
+      "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\CVs\\7a69fa9c-b517-46e3-b20d-12bb3c73ff0b\\employeelist.PNG",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "CVs/7a69fa9c-b517-46e3-b20d-12bb3c73ff0b/employeelist.PNG",
+      "RelativePath": "CVs/7a69fa9c-b517-46e3-b20d-12bb3c73ff0b/employeelist#[.{fingerprint}]?.PNG",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "9etjas0lkp",
+      "Integrity": "kZUb6b+n0hw1FD2eS83tXJUqFMzq59CmJv8yoExqgQQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\CVs\\7a69fa9c-b517-46e3-b20d-12bb3c73ff0b\\employeelist.PNG"
     },
     {
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\CVs\\7a69fa9c-b517-46e3-b20d-12bb3c73ff0b\\login.PNG",
+      "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\CVs\\7a69fa9c-b517-46e3-b20d-12bb3c73ff0b\\login.PNG",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "CVs/7a69fa9c-b517-46e3-b20d-12bb3c73ff0b/login.PNG",
+      "RelativePath": "CVs/7a69fa9c-b517-46e3-b20d-12bb3c73ff0b/login#[.{fingerprint}]?.PNG",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "8d2y2nw3xy",
+      "Integrity": "hAEqxKTsahe8N/dD2Ys49fz/2otNQvPIqjhlFAUcYN4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\CVs\\7a69fa9c-b517-46e3-b20d-12bb3c73ff0b\\login.PNG"
     },
     {
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\CVs\\82e644a2-b225-4ae1-a1f6-951421ec55e9\\Monthly budget tracker.xlsx",
+      "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\CVs\\82e644a2-b225-4ae1-a1f6-951421ec55e9\\Monthly budget tracker.xlsx",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "CVs/82e644a2-b225-4ae1-a1f6-951421ec55e9/Monthly budget tracker.xlsx",
+      "RelativePath": "CVs/82e644a2-b225-4ae1-a1f6-951421ec55e9/Monthly budget tracker#[.{fingerprint}]?.xlsx",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "ti3rsi38c4",
+      "Integrity": "a2G0S7b3d9jtJ+Xbl2DLxY2hVujUvDIaNuRjgdBjqIs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\CVs\\82e644a2-b225-4ae1-a1f6-951421ec55e9\\Monthly budget tracker.xlsx"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\CVs\\bbc8c803-b15b-4cd9-89a5-66dba3595e41\\pexels-matthew-montrone-230847-1324803.jpg",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\CVs\\bbc8c803-b15b-4cd9-89a5-66dba3595e41\\pexels-matthew-montrone-230847-1324803.jpg",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "CVs/bbc8c803-b15b-4cd9-89a5-66dba3595e41/pexels-matthew-montrone-230847-1324803.jpg",
+      "RelativePath": "CVs/bbc8c803-b15b-4cd9-89a5-66dba3595e41/pexels-matthew-montrone-230847-1324803#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "ojrj9ast8k",
+      "Integrity": "NCPqoSO4GP1O66tEBODaaV2drKc5ZfWH8lFLmVA9dl8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\CVs\\bbc8c803-b15b-4cd9-89a5-66dba3595e41\\pexels-matthew-montrone-230847-1324803.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\employeeDocuments\\20b8cc80-7bb2-4b77-8ce2-bedea91a4a3c.pdf",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\employeeDocuments\\20b8cc80-7bb2-4b77-8ce2-bedea91a4a3c.pdf",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "employeeDocuments/20b8cc80-7bb2-4b77-8ce2-bedea91a4a3c.pdf",
+      "RelativePath": "employeeDocuments/20b8cc80-7bb2-4b77-8ce2-bedea91a4a3c#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "xq3zp95kfa",
+      "Integrity": "ucpIzeXjKYQt7POSPLsQMSea5tOyCihcHZWbhf6jgXA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\employeeDocuments\\20b8cc80-7bb2-4b77-8ce2-bedea91a4a3c.pdf"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\employeeDocuments\\4573af66-3631-4b54-a8ef-ba605b158b6a.pdf",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\employeeDocuments\\4573af66-3631-4b54-a8ef-ba605b158b6a.pdf",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "employeeDocuments/4573af66-3631-4b54-a8ef-ba605b158b6a.pdf",
+      "RelativePath": "employeeDocuments/4573af66-3631-4b54-a8ef-ba605b158b6a#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "x9ekafrslc",
+      "Integrity": "RRtpvZ/f3y4bD5O1fLcRWbA34u1YDBIaJKh7ny0/55k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\employeeDocuments\\4573af66-3631-4b54-a8ef-ba605b158b6a.pdf"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\employeeDocuments\\e36bbd9b-4bca-492c-b860-d385bf55c500.pdf",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\employeeDocuments\\e36bbd9b-4bca-492c-b860-d385bf55c500.pdf",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "employeeDocuments/e36bbd9b-4bca-492c-b860-d385bf55c500.pdf",
+      "RelativePath": "employeeDocuments/e36bbd9b-4bca-492c-b860-d385bf55c500#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "xq3zp95kfa",
+      "Integrity": "ucpIzeXjKYQt7POSPLsQMSea5tOyCihcHZWbhf6jgXA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\employeeDocuments\\e36bbd9b-4bca-492c-b860-d385bf55c500.pdf"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\00ff1716-35d1-487d-a680-34dfa99a5f56.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\00ff1716-35d1-487d-a680-34dfa99a5f56.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/00ff1716-35d1-487d-a680-34dfa99a5f56.png",
+      "RelativePath": "profilePictures/00ff1716-35d1-487d-a680-34dfa99a5f56#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\00ff1716-35d1-487d-a680-34dfa99a5f56.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\01b2f61f-5081-4b89-9a55-9efa2bbe03b3.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\01b2f61f-5081-4b89-9a55-9efa2bbe03b3.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/01b2f61f-5081-4b89-9a55-9efa2bbe03b3.png",
+      "RelativePath": "profilePictures/01b2f61f-5081-4b89-9a55-9efa2bbe03b3#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "vp1qze9gnr",
+      "Integrity": "zekoJqTzo6SLHm9djCzB1rQwRosb6hknhDNHj8SvN/U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\01b2f61f-5081-4b89-9a55-9efa2bbe03b3.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\05ebe490-b3c8-4ee4-97ea-d1d735d5aefa.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\05ebe490-b3c8-4ee4-97ea-d1d735d5aefa.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/05ebe490-b3c8-4ee4-97ea-d1d735d5aefa.png",
+      "RelativePath": "profilePictures/05ebe490-b3c8-4ee4-97ea-d1d735d5aefa#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\05ebe490-b3c8-4ee4-97ea-d1d735d5aefa.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\09e68e25-42e5-4500-a666-66881e11e9ff.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\09e68e25-42e5-4500-a666-66881e11e9ff.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/09e68e25-42e5-4500-a666-66881e11e9ff.png",
+      "RelativePath": "profilePictures/09e68e25-42e5-4500-a666-66881e11e9ff#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "8d2y2nw3xy",
+      "Integrity": "hAEqxKTsahe8N/dD2Ys49fz/2otNQvPIqjhlFAUcYN4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\09e68e25-42e5-4500-a666-66881e11e9ff.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\0c09a6cd-a8ea-40ac-ad37-786186b4ffb2.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\0c09a6cd-a8ea-40ac-ad37-786186b4ffb2.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/0c09a6cd-a8ea-40ac-ad37-786186b4ffb2.png",
+      "RelativePath": "profilePictures/0c09a6cd-a8ea-40ac-ad37-786186b4ffb2#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\0c09a6cd-a8ea-40ac-ad37-786186b4ffb2.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\0e231f08-adaa-4046-9329-5edc63020613.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\0e231f08-adaa-4046-9329-5edc63020613.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/0e231f08-adaa-4046-9329-5edc63020613.png",
+      "RelativePath": "profilePictures/0e231f08-adaa-4046-9329-5edc63020613#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\0e231f08-adaa-4046-9329-5edc63020613.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\0fee2271-569a-4489-b33f-71074f165287.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\0fee2271-569a-4489-b33f-71074f165287.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/0fee2271-569a-4489-b33f-71074f165287.png",
+      "RelativePath": "profilePictures/0fee2271-569a-4489-b33f-71074f165287#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\0fee2271-569a-4489-b33f-71074f165287.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\1007d01e-4170-4078-8df7-68d2c376e651.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\1007d01e-4170-4078-8df7-68d2c376e651.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/1007d01e-4170-4078-8df7-68d2c376e651.png",
+      "RelativePath": "profilePictures/1007d01e-4170-4078-8df7-68d2c376e651#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\1007d01e-4170-4078-8df7-68d2c376e651.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\129b2090-31c0-4932-b330-023d10222778.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\129b2090-31c0-4932-b330-023d10222778.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/129b2090-31c0-4932-b330-023d10222778.png",
+      "RelativePath": "profilePictures/129b2090-31c0-4932-b330-023d10222778#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "vp1qze9gnr",
+      "Integrity": "zekoJqTzo6SLHm9djCzB1rQwRosb6hknhDNHj8SvN/U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\129b2090-31c0-4932-b330-023d10222778.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\139e0cd4-194e-4a7a-af97-1e377a9fb23b.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\139e0cd4-194e-4a7a-af97-1e377a9fb23b.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/139e0cd4-194e-4a7a-af97-1e377a9fb23b.png",
+      "RelativePath": "profilePictures/139e0cd4-194e-4a7a-af97-1e377a9fb23b#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\139e0cd4-194e-4a7a-af97-1e377a9fb23b.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\15aa8618-afc7-41e2-8229-3ea6cc1529ff.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\15aa8618-afc7-41e2-8229-3ea6cc1529ff.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/15aa8618-afc7-41e2-8229-3ea6cc1529ff.png",
+      "RelativePath": "profilePictures/15aa8618-afc7-41e2-8229-3ea6cc1529ff#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\15aa8618-afc7-41e2-8229-3ea6cc1529ff.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\1f402838-1e0a-43d5-aa85-3de5e5491c5b.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\1f402838-1e0a-43d5-aa85-3de5e5491c5b.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/1f402838-1e0a-43d5-aa85-3de5e5491c5b.png",
+      "RelativePath": "profilePictures/1f402838-1e0a-43d5-aa85-3de5e5491c5b#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\1f402838-1e0a-43d5-aa85-3de5e5491c5b.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\23f0c78f-0f7b-4890-872b-6fcdb42d0e3d.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\23f0c78f-0f7b-4890-872b-6fcdb42d0e3d.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/23f0c78f-0f7b-4890-872b-6fcdb42d0e3d.png",
+      "RelativePath": "profilePictures/23f0c78f-0f7b-4890-872b-6fcdb42d0e3d#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\23f0c78f-0f7b-4890-872b-6fcdb42d0e3d.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\289cd7cf-ee25-4851-873e-0f2667dc1cbe.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\289cd7cf-ee25-4851-873e-0f2667dc1cbe.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/289cd7cf-ee25-4851-873e-0f2667dc1cbe.png",
+      "RelativePath": "profilePictures/289cd7cf-ee25-4851-873e-0f2667dc1cbe#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "8d2y2nw3xy",
+      "Integrity": "hAEqxKTsahe8N/dD2Ys49fz/2otNQvPIqjhlFAUcYN4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\289cd7cf-ee25-4851-873e-0f2667dc1cbe.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\3464ea2e-c6ec-496f-8a9e-7490b657f84b.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\3464ea2e-c6ec-496f-8a9e-7490b657f84b.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/3464ea2e-c6ec-496f-8a9e-7490b657f84b.png",
+      "RelativePath": "profilePictures/3464ea2e-c6ec-496f-8a9e-7490b657f84b#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\3464ea2e-c6ec-496f-8a9e-7490b657f84b.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\3c34153d-2117-4076-a4a7-e3ddc4473dc7.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\3c34153d-2117-4076-a4a7-e3ddc4473dc7.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/3c34153d-2117-4076-a4a7-e3ddc4473dc7.png",
+      "RelativePath": "profilePictures/3c34153d-2117-4076-a4a7-e3ddc4473dc7#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "8d2y2nw3xy",
+      "Integrity": "hAEqxKTsahe8N/dD2Ys49fz/2otNQvPIqjhlFAUcYN4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\3c34153d-2117-4076-a4a7-e3ddc4473dc7.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\408459ac-c09c-4060-9d1f-ccdbf40b6347.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\408459ac-c09c-4060-9d1f-ccdbf40b6347.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/408459ac-c09c-4060-9d1f-ccdbf40b6347.png",
+      "RelativePath": "profilePictures/408459ac-c09c-4060-9d1f-ccdbf40b6347#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "vp1qze9gnr",
+      "Integrity": "zekoJqTzo6SLHm9djCzB1rQwRosb6hknhDNHj8SvN/U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\408459ac-c09c-4060-9d1f-ccdbf40b6347.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\4e1c4801-fed9-42ef-9dca-30d99276d49d.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\4e1c4801-fed9-42ef-9dca-30d99276d49d.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/4e1c4801-fed9-42ef-9dca-30d99276d49d.png",
+      "RelativePath": "profilePictures/4e1c4801-fed9-42ef-9dca-30d99276d49d#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\4e1c4801-fed9-42ef-9dca-30d99276d49d.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\4f6ff77e-ced9-49d5-8165-8ec858fb512f.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\4f6ff77e-ced9-49d5-8165-8ec858fb512f.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/4f6ff77e-ced9-49d5-8165-8ec858fb512f.png",
+      "RelativePath": "profilePictures/4f6ff77e-ced9-49d5-8165-8ec858fb512f#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\4f6ff77e-ced9-49d5-8165-8ec858fb512f.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\58940e31-08d8-4e6a-bd02-f38f570e9009.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\58940e31-08d8-4e6a-bd02-f38f570e9009.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/58940e31-08d8-4e6a-bd02-f38f570e9009.png",
+      "RelativePath": "profilePictures/58940e31-08d8-4e6a-bd02-f38f570e9009#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\58940e31-08d8-4e6a-bd02-f38f570e9009.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\5babba4f-613e-4125-b2ed-e1a3b0920122.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\5babba4f-613e-4125-b2ed-e1a3b0920122.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/5babba4f-613e-4125-b2ed-e1a3b0920122.png",
+      "RelativePath": "profilePictures/5babba4f-613e-4125-b2ed-e1a3b0920122#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "vp1qze9gnr",
+      "Integrity": "zekoJqTzo6SLHm9djCzB1rQwRosb6hknhDNHj8SvN/U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\5babba4f-613e-4125-b2ed-e1a3b0920122.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\5cbb80ad-fc4e-4c6f-b7b1-fe44eabb82b0.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\5cbb80ad-fc4e-4c6f-b7b1-fe44eabb82b0.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/5cbb80ad-fc4e-4c6f-b7b1-fe44eabb82b0.png",
+      "RelativePath": "profilePictures/5cbb80ad-fc4e-4c6f-b7b1-fe44eabb82b0#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\5cbb80ad-fc4e-4c6f-b7b1-fe44eabb82b0.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\5e657832-3a69-49f7-b552-9b3329236b74.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\5e657832-3a69-49f7-b552-9b3329236b74.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/5e657832-3a69-49f7-b552-9b3329236b74.png",
+      "RelativePath": "profilePictures/5e657832-3a69-49f7-b552-9b3329236b74#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "vp1qze9gnr",
+      "Integrity": "zekoJqTzo6SLHm9djCzB1rQwRosb6hknhDNHj8SvN/U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\5e657832-3a69-49f7-b552-9b3329236b74.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\614009eb-654d-4366-9a4e-ba3106a32859.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\614009eb-654d-4366-9a4e-ba3106a32859.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/614009eb-654d-4366-9a4e-ba3106a32859.png",
+      "RelativePath": "profilePictures/614009eb-654d-4366-9a4e-ba3106a32859#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "vp1qze9gnr",
+      "Integrity": "zekoJqTzo6SLHm9djCzB1rQwRosb6hknhDNHj8SvN/U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\614009eb-654d-4366-9a4e-ba3106a32859.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\661cfd68-92f9-44b5-ab8b-ec9a4dbe9604.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\661cfd68-92f9-44b5-ab8b-ec9a4dbe9604.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/661cfd68-92f9-44b5-ab8b-ec9a4dbe9604.png",
+      "RelativePath": "profilePictures/661cfd68-92f9-44b5-ab8b-ec9a4dbe9604#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\661cfd68-92f9-44b5-ab8b-ec9a4dbe9604.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\67293c30-a375-4e5d-918e-bb8096f9a2c7.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\67293c30-a375-4e5d-918e-bb8096f9a2c7.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/67293c30-a375-4e5d-918e-bb8096f9a2c7.png",
+      "RelativePath": "profilePictures/67293c30-a375-4e5d-918e-bb8096f9a2c7#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\67293c30-a375-4e5d-918e-bb8096f9a2c7.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\7a2aec0f-7911-4b9b-8bce-39d40e514440.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\7a2aec0f-7911-4b9b-8bce-39d40e514440.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/7a2aec0f-7911-4b9b-8bce-39d40e514440.png",
+      "RelativePath": "profilePictures/7a2aec0f-7911-4b9b-8bce-39d40e514440#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\7a2aec0f-7911-4b9b-8bce-39d40e514440.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\7a723b66-9f80-4e64-9e83-680a1cebcc24.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\7a723b66-9f80-4e64-9e83-680a1cebcc24.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/7a723b66-9f80-4e64-9e83-680a1cebcc24.png",
+      "RelativePath": "profilePictures/7a723b66-9f80-4e64-9e83-680a1cebcc24#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "vp1qze9gnr",
+      "Integrity": "zekoJqTzo6SLHm9djCzB1rQwRosb6hknhDNHj8SvN/U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\7a723b66-9f80-4e64-9e83-680a1cebcc24.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\7ea782ff-43ae-49d0-998b-63a33c0650fa.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\7ea782ff-43ae-49d0-998b-63a33c0650fa.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/7ea782ff-43ae-49d0-998b-63a33c0650fa.png",
+      "RelativePath": "profilePictures/7ea782ff-43ae-49d0-998b-63a33c0650fa#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\7ea782ff-43ae-49d0-998b-63a33c0650fa.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\80c12ecc-b1c8-4f3f-9cbc-9ba9453c7cd4.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\80c12ecc-b1c8-4f3f-9cbc-9ba9453c7cd4.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/80c12ecc-b1c8-4f3f-9cbc-9ba9453c7cd4.png",
+      "RelativePath": "profilePictures/80c12ecc-b1c8-4f3f-9cbc-9ba9453c7cd4#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\80c12ecc-b1c8-4f3f-9cbc-9ba9453c7cd4.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\827c9120-980e-46f5-80a5-6fe8ebcecca1.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\827c9120-980e-46f5-80a5-6fe8ebcecca1.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/827c9120-980e-46f5-80a5-6fe8ebcecca1.png",
+      "RelativePath": "profilePictures/827c9120-980e-46f5-80a5-6fe8ebcecca1#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\827c9120-980e-46f5-80a5-6fe8ebcecca1.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\8be3510a-1062-4bc4-b884-c429fd35d3eb.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\8be3510a-1062-4bc4-b884-c429fd35d3eb.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/8be3510a-1062-4bc4-b884-c429fd35d3eb.png",
+      "RelativePath": "profilePictures/8be3510a-1062-4bc4-b884-c429fd35d3eb#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "vp1qze9gnr",
+      "Integrity": "zekoJqTzo6SLHm9djCzB1rQwRosb6hknhDNHj8SvN/U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\8be3510a-1062-4bc4-b884-c429fd35d3eb.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\9735f950-ee0f-4a7c-8f9e-5ab3aebbcc20.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\9735f950-ee0f-4a7c-8f9e-5ab3aebbcc20.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/9735f950-ee0f-4a7c-8f9e-5ab3aebbcc20.png",
+      "RelativePath": "profilePictures/9735f950-ee0f-4a7c-8f9e-5ab3aebbcc20#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\9735f950-ee0f-4a7c-8f9e-5ab3aebbcc20.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\a55a61d0-faa2-4ac6-a2b5-684d38aabaac.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\a55a61d0-faa2-4ac6-a2b5-684d38aabaac.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/a55a61d0-faa2-4ac6-a2b5-684d38aabaac.png",
+      "RelativePath": "profilePictures/a55a61d0-faa2-4ac6-a2b5-684d38aabaac#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "vp1qze9gnr",
+      "Integrity": "zekoJqTzo6SLHm9djCzB1rQwRosb6hknhDNHj8SvN/U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\a55a61d0-faa2-4ac6-a2b5-684d38aabaac.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\a5e0a96a-cb4e-4dff-823f-a62ac248cacc.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\a5e0a96a-cb4e-4dff-823f-a62ac248cacc.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/a5e0a96a-cb4e-4dff-823f-a62ac248cacc.png",
+      "RelativePath": "profilePictures/a5e0a96a-cb4e-4dff-823f-a62ac248cacc#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\a5e0a96a-cb4e-4dff-823f-a62ac248cacc.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\b0842d1b-87bb-4f43-8d4d-a71d67925539.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\b0842d1b-87bb-4f43-8d4d-a71d67925539.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/b0842d1b-87bb-4f43-8d4d-a71d67925539.png",
+      "RelativePath": "profilePictures/b0842d1b-87bb-4f43-8d4d-a71d67925539#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\b0842d1b-87bb-4f43-8d4d-a71d67925539.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\c14b6f6c-5b1f-428c-aba9-339f125e3da2.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\c14b6f6c-5b1f-428c-aba9-339f125e3da2.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/c14b6f6c-5b1f-428c-aba9-339f125e3da2.png",
+      "RelativePath": "profilePictures/c14b6f6c-5b1f-428c-aba9-339f125e3da2#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "8d2y2nw3xy",
+      "Integrity": "hAEqxKTsahe8N/dD2Ys49fz/2otNQvPIqjhlFAUcYN4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\c14b6f6c-5b1f-428c-aba9-339f125e3da2.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\d57df95c-e29e-4cd6-9032-6d40aef528a9.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\d57df95c-e29e-4cd6-9032-6d40aef528a9.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/d57df95c-e29e-4cd6-9032-6d40aef528a9.png",
+      "RelativePath": "profilePictures/d57df95c-e29e-4cd6-9032-6d40aef528a9#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\d57df95c-e29e-4cd6-9032-6d40aef528a9.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\ef37bf7f-8cca-4f60-87fb-97153035b636.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\ef37bf7f-8cca-4f60-87fb-97153035b636.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/ef37bf7f-8cca-4f60-87fb-97153035b636.png",
+      "RelativePath": "profilePictures/ef37bf7f-8cca-4f60-87fb-97153035b636#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "vp1qze9gnr",
+      "Integrity": "zekoJqTzo6SLHm9djCzB1rQwRosb6hknhDNHj8SvN/U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\ef37bf7f-8cca-4f60-87fb-97153035b636.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\f4709463-0d93-43d4-bd43-4cc94748fa24.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\f4709463-0d93-43d4-bd43-4cc94748fa24.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/f4709463-0d93-43d4-bd43-4cc94748fa24.png",
+      "RelativePath": "profilePictures/f4709463-0d93-43d4-bd43-4cc94748fa24#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\f4709463-0d93-43d4-bd43-4cc94748fa24.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\f893dae7-e2e5-414c-a2e6-3ce5e08e28bc.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\f893dae7-e2e5-414c-a2e6-3ce5e08e28bc.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/f893dae7-e2e5-414c-a2e6-3ce5e08e28bc.png",
+      "RelativePath": "profilePictures/f893dae7-e2e5-414c-a2e6-3ce5e08e28bc#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "vp1qze9gnr",
+      "Integrity": "zekoJqTzo6SLHm9djCzB1rQwRosb6hknhDNHj8SvN/U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\f893dae7-e2e5-414c-a2e6-3ce5e08e28bc.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\f8c523ca-008b-4784-9407-93a36a4854f7.png",
       "SourceId": "EmployeeSystem.Application",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
-=======
-      "Identity": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\profilePictures\\f8c523ca-008b-4784-9407-93a36a4854f7.png",
-      "SourceId": "EmployeeSystem.Application",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
       "BasePath": "_content/EmployeeSystem.Application",
-      "RelativePath": "profilePictures/f8c523ca-008b-4784-9407-93a36a4854f7.png",
+      "RelativePath": "profilePictures/f8c523ca-008b-4784-9407-93a36a4854f7#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fczip0d428",
+      "Integrity": "kfNChGiYod2RsiRy6MeaUCdtxzHkBcdwp5ba+oU+gfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profilePictures\\f8c523ca-008b-4784-9407-93a36a4854f7.png"
     }
-<<<<<<< HEAD
   ],
   "Endpoints": [
     {
@@ -1521,6 +1374,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-1rXeW0g5/CT8BtxdhaVeGFbJeJtfjAWTVX+7Rykmafc="
+        }
+      ]
+    },
+    {
+      "Route": "CVs/7a69fa9c-b517-46e3-b20d-12bb3c73ff0b/educationalinfo.PNG",
+      "AssetFile": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\CVs\\7a69fa9c-b517-46e3-b20d-12bb3c73ff0b\\educationalinfo.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "100845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YhV4gWy4jGL7cBnAd3gufJ3/3BLAmNQf96IUYZSIp3s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 08:38:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YhV4gWy4jGL7cBnAd3gufJ3/3BLAmNQf96IUYZSIp3s="
+        }
+      ]
+    },
+    {
+      "Route": "CVs/7a69fa9c-b517-46e3-b20d-12bb3c73ff0b/educationalinfo.yb7mccivco.PNG",
+      "AssetFile": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\CVs\\7a69fa9c-b517-46e3-b20d-12bb3c73ff0b\\educationalinfo.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "100845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YhV4gWy4jGL7cBnAd3gufJ3/3BLAmNQf96IUYZSIp3s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 08:38:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yb7mccivco"
+        },
+        {
+          "Name": "label",
+          "Value": "CVs/7a69fa9c-b517-46e3-b20d-12bb3c73ff0b/educationalinfo.PNG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YhV4gWy4jGL7cBnAd3gufJ3/3BLAmNQf96IUYZSIp3s="
+        }
+      ]
+    },
+    {
+      "Route": "CVs/7a69fa9c-b517-46e3-b20d-12bb3c73ff0b/employeelist.9etjas0lkp.PNG",
+      "AssetFile": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\CVs\\7a69fa9c-b517-46e3-b20d-12bb3c73ff0b\\employeelist.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144520"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kZUb6b+n0hw1FD2eS83tXJUqFMzq59CmJv8yoExqgQQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 08:38:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9etjas0lkp"
+        },
+        {
+          "Name": "label",
+          "Value": "CVs/7a69fa9c-b517-46e3-b20d-12bb3c73ff0b/employeelist.PNG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kZUb6b+n0hw1FD2eS83tXJUqFMzq59CmJv8yoExqgQQ="
+        }
+      ]
+    },
+    {
+      "Route": "CVs/7a69fa9c-b517-46e3-b20d-12bb3c73ff0b/employeelist.PNG",
+      "AssetFile": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\CVs\\7a69fa9c-b517-46e3-b20d-12bb3c73ff0b\\employeelist.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144520"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kZUb6b+n0hw1FD2eS83tXJUqFMzq59CmJv8yoExqgQQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 08:38:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kZUb6b+n0hw1FD2eS83tXJUqFMzq59CmJv8yoExqgQQ="
+        }
+      ]
+    },
+    {
+      "Route": "CVs/7a69fa9c-b517-46e3-b20d-12bb3c73ff0b/login.8d2y2nw3xy.PNG",
+      "AssetFile": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\CVs\\7a69fa9c-b517-46e3-b20d-12bb3c73ff0b\\login.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "125099"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hAEqxKTsahe8N/dD2Ys49fz/2otNQvPIqjhlFAUcYN4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 08:38:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8d2y2nw3xy"
+        },
+        {
+          "Name": "label",
+          "Value": "CVs/7a69fa9c-b517-46e3-b20d-12bb3c73ff0b/login.PNG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hAEqxKTsahe8N/dD2Ys49fz/2otNQvPIqjhlFAUcYN4="
+        }
+      ]
+    },
+    {
+      "Route": "CVs/7a69fa9c-b517-46e3-b20d-12bb3c73ff0b/login.PNG",
+      "AssetFile": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\wwwroot\\CVs\\7a69fa9c-b517-46e3-b20d-12bb3c73ff0b\\login.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "125099"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hAEqxKTsahe8N/dD2Ys49fz/2otNQvPIqjhlFAUcYN4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 08:38:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hAEqxKTsahe8N/dD2Ys49fz/2otNQvPIqjhlFAUcYN4="
         }
       ]
     },
@@ -5378,7 +5477,5 @@
         }
       ]
     }
-=======
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
   ]
 }
