@@ -40,6 +40,9 @@ public partial class EmployeeDBContext : DbContext
 
     public virtual DbSet<Files> Files { get; set; }
 
+    public virtual DbSet<Accessories> Accessories { get; set; }
+    public virtual DbSet<EmployeeAccessories> EmployeeAccessories { get; set; }
+
 
 
 

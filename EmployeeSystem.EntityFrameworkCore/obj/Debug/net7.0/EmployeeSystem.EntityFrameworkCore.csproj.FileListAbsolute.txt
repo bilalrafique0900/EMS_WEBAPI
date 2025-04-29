@@ -67,3 +67,21 @@ C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.EntityFramework
 C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.pdb
 C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.genruntimeconfig.cache
 C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\ref\EmployeeSystem.EntityFrameworkCore.dll
+D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.deps.json
+D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.runtimeconfig.json
+D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.dll
+D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.pdb
+D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.Domain.dll
+D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\bin\Debug\net7.0\EmployeeSystem.Domain.pdb
+D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.csproj.AssemblyReference.cache
+D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.AssemblyInfoInputs.cache
+D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.AssemblyInfo.cs
+D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.sourcelink.json
+D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\Employee.324DB2B9.Up2Date
+D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.dll
+D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\refint\EmployeeSystem.EntityFrameworkCore.dll
+D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.pdb
+D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\EmployeeSystem.EntityFrameworkCore.genruntimeconfig.cache
+D:\Projects\EMS_WEBAPI\EmployeeSystem.EntityFrameworkCore\obj\Debug\net7.0\ref\EmployeeSystem.EntityFrameworkCore.dll

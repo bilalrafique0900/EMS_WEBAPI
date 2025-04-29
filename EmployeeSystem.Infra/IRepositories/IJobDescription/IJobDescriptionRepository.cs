@@ -8,10 +8,10 @@ namespace EmployeeSystem.Infra.IRepositories.IJobDescription
     public interface IJobDescriptionRepository : IGenericRepository<JobDescriptionDto>
     {
         Task<bool> CreateUpdate(JobDescriptionDto jobDescription);
+        Task<bool> CreateUpdate1(JobDescriptionDto obj);
         Task<bool> Active(Guid id);
         Task<bool> Delete(Guid id);
         Task<ApiResponseModel> GetAllJobDescriptions(int pageNo, int pageSize, string searchText);
         Task<IEnumerable<DropdownListDto>> GetAllJobs();
-
     }
 }

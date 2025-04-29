@@ -26,7 +26,7 @@ namespace EmployeeSystem.Application.Controllers.JobDescription
             return Ok(new ApiResponseModel
             {
                 Status = true,
-                Data = await _jobdescriptionRepository.CreateUpdate(obj),
+                Data = await _jobdescriptionRepository.CreateUpdate1(obj),
                 Message = StaticVariables.SaveUpdatedRecord
             });
 
@@ -45,8 +45,8 @@ namespace EmployeeSystem.Application.Controllers.JobDescription
         [Route("jobdescription-list")]
         public async Task<IActionResult> GetJobDescriptions(int pageNo, int pageSize, string searchText = "")
         {
-            return Ok(await _jobdescriptionRepository.GetAllJobDescriptions(pageNo, pageSize, searchText));       
-           
+            return Ok(await _jobdescriptionRepository.GetAllJobDescriptions(pageNo, pageSize, searchText));
+
         }
         [HttpDelete]
         [Route("delete/{id}")]

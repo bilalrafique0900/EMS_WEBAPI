@@ -59,3 +59,19 @@ C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.Common\obj\Debu
 C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.Common\obj\Debug\net7.0\refint\EmployeeSystem.Domain.Common.dll
 C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.pdb
 C:\Users\Admin\Desktop\employee system\EMS_WEBAPI\EmployeeSystem.Common\obj\Debug\net7.0\ref\EmployeeSystem.Domain.Common.dll
+D:\Projects\EMS_WEBAPI\EmployeeSystem.Common\bin\Debug\net7.0\EmployeeSystem.Domain.Common.deps.json
+D:\Projects\EMS_WEBAPI\EmployeeSystem.Common\bin\Debug\net7.0\EmployeeSystem.Domain.Common.dll
+D:\Projects\EMS_WEBAPI\EmployeeSystem.Common\bin\Debug\net7.0\EmployeeSystem.Domain.Common.pdb
+D:\Projects\EMS_WEBAPI\EmployeeSystem.Common\bin\Debug\net7.0\EmployeeSystem.Domain.dll
+D:\Projects\EMS_WEBAPI\EmployeeSystem.Common\bin\Debug\net7.0\EmployeeSystem.Domain.pdb
+D:\Projects\EMS_WEBAPI\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.csproj.AssemblyReference.cache
+D:\Projects\EMS_WEBAPI\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\EMS_WEBAPI\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.AssemblyInfoInputs.cache
+D:\Projects\EMS_WEBAPI\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.AssemblyInfo.cs
+D:\Projects\EMS_WEBAPI\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.csproj.CoreCompileInputs.cache
+D:\Projects\EMS_WEBAPI\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.sourcelink.json
+D:\Projects\EMS_WEBAPI\EmployeeSystem.Common\obj\Debug\net7.0\Employee.A4E8BE21.Up2Date
+D:\Projects\EMS_WEBAPI\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.dll
+D:\Projects\EMS_WEBAPI\EmployeeSystem.Common\obj\Debug\net7.0\refint\EmployeeSystem.Domain.Common.dll
+D:\Projects\EMS_WEBAPI\EmployeeSystem.Common\obj\Debug\net7.0\EmployeeSystem.Domain.Common.pdb
+D:\Projects\EMS_WEBAPI\EmployeeSystem.Common\obj\Debug\net7.0\ref\EmployeeSystem.Domain.Common.dll

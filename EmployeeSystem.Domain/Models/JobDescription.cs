@@ -13,15 +13,17 @@ public partial class JobDescription: BaseModel
     public Guid? DepartmentId { get; set; }
     [StringLength(100)]
     public Guid? GroupId { get; set; }
-   
+
     [StringLength(100)]
     public Guid? HiringManagerId { get; set; }
     [StringLength(100)]
     public Guid? PostHostId { get; set; }
     [StringLength(100)]
     public Guid? EmploymentTypeId { get; set; }
-    
+
     [StringLength(100)]
     public DateTime? JobOpeningDate { get; set; }
     public string? Description { get; set; }
+
+    public int NumberOfJobs { get; set; }
 }

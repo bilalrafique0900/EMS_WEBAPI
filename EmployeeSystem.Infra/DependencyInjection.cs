@@ -3,10 +3,12 @@ using DinkToPdf.Contracts;
 using EmployeeSystem.Application.Contracts.HelperMethods;
 using EmployeeSystem.Infra.Dapper;
 using EmployeeSystem.Infra.IRepositories;
+using EmployeeSystem.Infra.IRepositories.EmployeeAccessoriesRepository;
 using EmployeeSystem.Infra.IRepositories.IContract;
 using EmployeeSystem.Infra.IRepositories.IDocument;
 using EmployeeSystem.Infra.IRepositories.IEmployee;
 using EmployeeSystem.Infra.IRepositories.IFile;
+using EmployeeSystem.Infra.IRepositories.IIAceessriesRepo;
 using EmployeeSystem.Infra.IRepositories.IJobDescription;
 using EmployeeSystem.Infra.IRepositories.ILovType;
 using EmployeeSystem.Infra.IRepositories.IMasterData;
@@ -15,9 +17,11 @@ using EmployeeSystem.Infra.IRepositories.IUserManagement;
 using EmployeeSystem.Infra.IRepositories.UserManagement;
 using EmployeeSystem.Infra.IServices;
 using EmployeeSystem.Infra.Repositories;
+using EmployeeSystem.Infra.Repositories.AccessriesRepostery;
 using EmployeeSystem.Infra.Repositories.Contract;
 using EmployeeSystem.Infra.Repositories.Document;
 using EmployeeSystem.Infra.Repositories.Employee;
+using EmployeeSystem.Infra.Repositories.EmployeeAccessoriesRepostery;
 using EmployeeSystem.Infra.Repositories.File;
 using EmployeeSystem.Infra.Repositories.JobDescription;
 using EmployeeSystem.Infra.Repositories.MasterData;
@@ -60,6 +64,8 @@ namespace EmployeeSystem.Infra
             services.AddTransient<IReportRepository, ReportRepository>();
             services.AddTransient<IFileRepository, FileRepository>();
             services.AddSingleton<IMailService, MailService>();
+            services.AddScoped<IEmployeeAccessoriesRepository, EmployeeAccessoriesRepostery>();
+            services.AddScoped<IAceessriesRepository, AccessriesRepostery>();
 
             return services;
         }

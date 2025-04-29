@@ -31,7 +31,7 @@ namespace EmployeeSystem.Infra.Repositories.JobDescription
             {
                 var MapeTheParentObject = this._mapper.Map(obj, rec);
                 rec.UpdatedDate = DateTime.Now;
-             
+
                 rec.UpdatedBy = obj.CreatedBy;
             }
             else
@@ -81,16 +81,6 @@ namespace EmployeeSystem.Infra.Repositories.JobDescription
         }
         public async Task<IEnumerable<DropdownListDto>> GetAllJobs()
         {
-            //List<DropdownListDto> list = await (from job in _dbContext.JobDescriptions
-            //                                        //join employee in _dbContext.Employees on job.JobDescriptionId !equals employee.JobDescriptionId
-
-            //                                    where job.IsDeleted != true
-            //                                    select new DropdownListDto
-            //                                    {
-            //                                        Id = job.JobDescriptionId,
-            //                                        Name = job.Title,
-
-            //                                    }).ToListAsync();
             List<DropdownListDto> list = await (from job in _dbContext.JobDescriptions
                                                 join employee in _dbContext.Employees
                                                 on job.JobDescriptionId equals employee.JobDescriptionId into employeeGroup
@@ -100,10 +90,37 @@ namespace EmployeeSystem.Infra.Repositories.JobDescription
                                                 select new DropdownListDto
                                                 {
                                                     Id = job.JobDescriptionId,
-                                                    Name = job.Title+" - ("+job.JobOpeningDate.Value.Date+")"
+                                                    Name = job.Title + " - (" + job.JobOpeningDate.Value.Date + ")"
                                                 }).ToListAsync();
 
             return list;
+        }
+
+        public async Task<bool> CreateUpdate1(JobDescriptionDto obj)
+        {
+            var rec = await _dbContext.JobDescriptions.FirstOrDefaultAsync(x => x.JobDescriptionId == obj.JobDescriptionId);
+            if (rec != null)
+            {
+                var MapeTheParentObject = this._mapper.Map(obj, rec);
+                rec.UpdatedDate = DateTime.Now;
+
+                rec.UpdatedBy = obj.CreatedBy;
+            }
+            else
+            {
+                for (var i = 0; i < obj.NumberOfJobs; i++)
+                {
+                    obj.CreatedDate = DateTime.Now;
+                    obj.IsDeleted = false;
+                    obj.IsActive = true;
+                    obj.JobDescriptionId = Guid.NewGuid();
+                    var StudentMapped = this._mapper.Map<JobDescriptionDto, EmployeeSystem.Domain.Models.JobDescription>(obj);
+                    await _dbContext.JobDescriptions.AddAsync(StudentMapped);
+                }
+
+            }
+            await _dbContext.SaveChangesAsync();
+            return true;
         }
     }
 }
