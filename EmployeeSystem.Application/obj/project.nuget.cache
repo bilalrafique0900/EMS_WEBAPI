@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "dRtjq+KKRtw=",
   "success": true,
   "projectFilePath": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Application\\EmployeeSystem.Application.csproj",
-=======
-  "dgSpecHash": "WJXtbzScEeRvZpskd8Dj9Wnt6tOES4WhJNmMJn0QtMP9pLm5U5jH9WuV9mSYdAwCXGi7cCgRF3p2oKuAOUz1Pg==",
-  "success": true,
-  "projectFilePath": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Application\\EmployeeSystem.Application.csproj",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
   "expectedPackageFiles": [
     "C:\\Users\\DO-User\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\DO-User\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

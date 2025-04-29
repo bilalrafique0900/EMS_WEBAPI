@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "N8KScbnaiXU=",
   "success": true,
   "projectFilePath": "D:\\Projects\\EMS_WEBAPI\\EmployeeSystem.Infra\\EmployeeSystem.Infra.csproj",
-=======
-  "dgSpecHash": "EUttpRYj4nXqOD8NK/0Z8Z1VdWLBnoOIhXJV8BkgncoXbjtThKadcomJoJSJ+BPH/klUWhEN1NHjaNB6YDNgrg==",
-  "success": true,
-  "projectFilePath": "D:\\Digital Omega\\DO Employee System\\EMS_WEBAPI\\EmployeeSystem.Infra\\EmployeeSystem.Infra.csproj",
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
   "expectedPackageFiles": [
     "C:\\Users\\DO-User\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\DO-User\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
@@ -181,7 +175,6 @@
     "C:\\Users\\DO-User\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
     "C:\\Users\\DO-User\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512"
   ],
-<<<<<<< HEAD
   "logs": [
     {
       "code": "NU1903",
@@ -354,7 +347,4 @@
       ]
     }
   ]
-=======
-  "logs": []
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
 }

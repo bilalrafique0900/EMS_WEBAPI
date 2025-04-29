@@ -303,8 +303,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                     b.HasKey("EmployeeId");
 
                     b.ToTable("Employees");
-<<<<<<< HEAD
-                });
+              });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.EmployeeAccessories", b =>
                 {
@@ -325,8 +324,6 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                     b.HasIndex("EmployeeId");
 
                     b.ToTable("EmployeeAccessories");
-=======
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.EmployeeChildren", b =>
@@ -897,8 +894,6 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                     b.HasKey("LevelId");
 
                     b.ToTable("Levels");
-<<<<<<< HEAD
-=======
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.Onboarding", b =>
@@ -968,7 +963,6 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                     b.HasKey("OnboardingId");
 
                     b.ToTable("Onboardings");
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.PermissionItem", b =>
@@ -1319,7 +1313,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                     b.HasKey("UserUserTokenId");
 
                     b.ToTable("UserTokens");
-<<<<<<< HEAD
+
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.EmployeeAccessories", b =>
@@ -1339,8 +1333,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                     b.Navigation("Accessories");
 
                     b.Navigation("Employee");
-=======
->>>>>>> 415fed0ecf2d9cb200df7f570aeb479b9bf1c958
+
                 });
 #pragma warning restore 612, 618
         }
