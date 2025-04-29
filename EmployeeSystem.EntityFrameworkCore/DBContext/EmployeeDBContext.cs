@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿  using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using EmployeeSystem.Domain.Models;
 using System.Reflection.Metadata;
@@ -39,6 +39,7 @@ public partial class EmployeeDBContext : DbContext
     public virtual DbSet<JobDescription> JobDescriptions { get; set; }
 
     public virtual DbSet<Files> Files { get; set; }
+    public virtual DbSet<Onboarding> Onboardings { get; set; }
 
 
 

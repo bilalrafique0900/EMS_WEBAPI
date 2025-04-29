@@ -78,6 +78,17 @@ namespace EmployeeSystem.Application.Controllers.MasterData
             });
         }
         [HttpGet]
+        [Route("level-by-groupcode")]
+        public async Task<IActionResult> GetLevelsByGroupCode(string GroupCode="")
+        {
+            return Ok(new ApiResponseModel
+            {
+                Status = true,
+                Data = await _levelRepository.GetLevelsByGroupCode(GroupCode),
+                Message = StaticVariables.SaveUpdatedRecord
+            });
+        }
+        [HttpGet]
         [Route("active/{id}")]
         public async Task<IActionResult> Active(Guid id)
         {

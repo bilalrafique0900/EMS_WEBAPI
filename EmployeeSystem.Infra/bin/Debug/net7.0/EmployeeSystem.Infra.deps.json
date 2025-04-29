@@ -1720,10 +1720,7 @@
           "EmployeeSystem.Domain.Common": "1.0.0"
         },
         "runtime": {
-          "EmployeeSystem.Application.Contracts.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "EmployeeSystem.Application.Contracts.dll": {}
         }
       },
       "EmployeeSystem.Domain/1.0.0": {
@@ -1737,10 +1734,7 @@
           "Microsoft.Extensions.Configuration.Json": "7.0.0"
         },
         "runtime": {
-          "EmployeeSystem.Domain.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "EmployeeSystem.Domain.dll": {}
         }
       },
       "EmployeeSystem.Domain.Common/1.0.0": {
@@ -1751,10 +1745,7 @@
           "MimeTypesMap": "1.0.8"
         },
         "runtime": {
-          "EmployeeSystem.Domain.Common.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "EmployeeSystem.Domain.Common.dll": {}
         }
       },
       "EmployeeSystem.EntityFrameworkCore/1.0.0": {
@@ -1763,10 +1754,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.12"
         },
         "runtime": {
-          "EmployeeSystem.EntityFrameworkCore.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "EmployeeSystem.EntityFrameworkCore.dll": {}
         }
       }
     }

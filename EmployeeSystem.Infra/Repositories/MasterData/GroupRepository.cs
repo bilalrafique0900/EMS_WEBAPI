@@ -67,7 +67,7 @@ namespace EmployeeSystem.Infra.Repositories.MasterData
                                                                         {
                                                                             Id = groups.GroupId,
                                                                             Name = groups.GroupName,
-
+Code=groups.GroupCode
                                                                         }).ToListAsync();
             return list;
         }

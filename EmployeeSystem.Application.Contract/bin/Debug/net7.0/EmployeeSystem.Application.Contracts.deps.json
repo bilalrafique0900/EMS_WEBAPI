@@ -768,10 +768,7 @@
           "Microsoft.Extensions.Configuration.Json": "7.0.0"
         },
         "runtime": {
-          "EmployeeSystem.Domain.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "EmployeeSystem.Domain.dll": {}
         }
       },
       "EmployeeSystem.Domain.Common/1.0.0": {
@@ -782,10 +779,7 @@
           "MimeTypesMap": "1.0.8"
         },
         "runtime": {
-          "EmployeeSystem.Domain.Common.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "EmployeeSystem.Domain.Common.dll": {}
         }
       }
     }

@@ -14,6 +14,6 @@ namespace EmployeeSystem.Domain.Models
 
         [Required, StringLength(30)]
         public string LevelName { get; set; }
-        public bool? IsExecutive { get; set; }
+        public string? Group{ get; set; }
     }
 }
