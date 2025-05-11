@@ -39,6 +39,9 @@ namespace EmployeeSystem.Infra.Repositories.UserManagement
                     result.FullName = user.FullName;
                     result.UpdatedBy = user.CreatedBy; 
                     result.CreatedDate = DateTime.Now;
+                    result.IsJobCreator = user.IsJobCreator;
+                    result.IsJobApprover= user.IsJobApprover;
+                    result.IsJobPublisher= user.IsJobPublisher;
                 }
                 else
                 {
@@ -51,6 +54,9 @@ namespace EmployeeSystem.Infra.Repositories.UserManagement
                         IsActive = true,
                         CreatedDate = DateTime.Now,
                        CreatedBy=user.CreatedBy,
+                       IsJobCreator=user.IsJobCreator,
+                       IsJobApprover=user.IsJobApprover,
+                       IsJobPublisher=user.IsJobPublisher
                     };
                     await _dbContext.Users.AddAsync(usr);
                 }

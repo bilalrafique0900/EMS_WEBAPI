@@ -71,7 +71,10 @@ namespace EmployeeSystem.Infra.Repositories.UserManagement
                         role.RoleName,
                         RoleKeyCode = role.KeyCode,
                         role.DefaultUrl,
-                        user.FullName
+                        user.FullName,
+                        user.IsJobCreator,
+                        user.IsJobApprover,
+                        user.IsJobPublisher
                     },
                     student,
                     teacher,

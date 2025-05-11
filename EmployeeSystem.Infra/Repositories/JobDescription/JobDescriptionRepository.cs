@@ -65,6 +65,28 @@ namespace EmployeeSystem.Infra.Repositories.JobDescription
             await _dbContext.SaveChangesAsync();
             return true;
         }
+        public async Task<bool> Approve(Guid id, Guid ApprovedBy)
+        {
+            var rec = await _dbContext.JobDescriptions.FirstOrDefaultAsync(x => x.JobDescriptionId == id);
+            if (rec != null)
+            {
+                rec.IsApproved = true;
+                rec.ApprovedBy= ApprovedBy;
+            }
+            await _dbContext.SaveChangesAsync();
+            return true;
+        }
+        public async Task<bool> Publish(Guid id, Guid PublishedBy)
+        {
+            var rec = await _dbContext.JobDescriptions.FirstOrDefaultAsync(x => x.JobDescriptionId == id);
+            if (rec != null)
+            {
+                rec.IsPublished= true;
+                rec.PublishedBy= PublishedBy;
+            }
+            await _dbContext.SaveChangesAsync();
+            return true;
+        }
         public async Task<ApiResponseModel> GetAllJobDescriptions(int pageNo, int pageSize, string searchText)
         {
             var parameters = new DynamicParameters();
@@ -86,7 +108,7 @@ namespace EmployeeSystem.Infra.Repositories.JobDescription
                                                 on job.JobDescriptionId equals employee.JobDescriptionId into employeeGroup
                                                 from employee in employeeGroup.DefaultIfEmpty() // Use left join
 
-                                                where job.IsDeleted != true && employee == null
+                                                where job.IsDeleted != true && job.IsPublished==true && employee == null
                                                 select new DropdownListDto
                                                 {
                                                     Id = job.JobDescriptionId,

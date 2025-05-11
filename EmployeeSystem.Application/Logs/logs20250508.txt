@@ -1,0 +1,2 @@
+[14:30:48 EmployeeSystem.Infra.Repositories.UserManagement.UserRepository [Information] User 0a442fa6-5f02-4b99-1a88-08dd8ba3b01a active status changed to  False.
+[14:30:56 EmployeeSystem.Infra.Repositories.UserManagement.UserRepository [Information] User 0a442fa6-5f02-4b99-1a88-08dd8ba3b01a active status changed to  True.

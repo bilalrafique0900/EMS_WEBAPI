@@ -32,6 +32,11 @@ namespace EmployeeSystem.Application.Contracts.DTO
 
         public int NumberOfJobs { get; set; }
 
+        public Guid? ApprovedBy { get; set; }
+        public bool? IsApproved { get; set; }
+
+        public Guid? PublishedBy { get; set; }
+        public bool? IsPublished { get; set; }
 
 
 

@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace EmployeeSystem.Domain.Models;
 
-public partial class JobDescription: BaseModel
+public partial class JobDescription : BaseModel
 {
     [Key]
     public Guid JobDescriptionId { get; set; }
@@ -26,4 +26,13 @@ public partial class JobDescription: BaseModel
     public string? Description { get; set; }
 
     public int NumberOfJobs { get; set; }
+
+    public Guid? ApprovedBy { get; set; }
+    public bool? IsApproved { get; set; }
+
+    public Guid? PublishedBy { get; set; }
+    public bool? IsPublished
+    {
+        get; set;
+    }
 }

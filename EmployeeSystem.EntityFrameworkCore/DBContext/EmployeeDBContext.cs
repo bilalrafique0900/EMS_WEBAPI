@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using EmployeeSystem.Domain.Models;
 using System.Reflection.Metadata;
 using Microsoft.Extensions.Hosting;
+using System.Data;
 
 namespace EmployeeSystem.EntityFrameworkCore.DBContext;
 
@@ -16,6 +17,7 @@ public partial class EmployeeDBContext : DbContext
     }
     public virtual DbSet<User> Users { get; set; }
     public virtual DbSet<Role> Roles { get; set; }
+    public virtual DbSet<RoleDepartment> RoleDepartments { get; set; }
     public virtual DbSet<PermissionItem> PermissionItems { get; set; }  
     public virtual DbSet<RolePermission> RolePermissions { get; set; }
     public virtual DbSet<LOV> LOVS { get; set; }
@@ -67,12 +69,12 @@ public partial class EmployeeDBContext : DbContext
         modelBuilder.Entity<Template>().HasQueryFilter(m => m.IsActive == true && m.IsDeleted == false);
 #pragma warning restore 0169, 0414, gobalFilters
 
-       // modelBuilder.Entity<MarksPolicyDetail>()
-       //.HasOne(e => e.MarksPolicy)
-       //.WithMany(e => e.PolicyDetails)
-       //.HasForeignKey(e => e.MarksPolicyId)
-       //.IsRequired();
-
+        // modelBuilder.Entity<MarksPolicyDetail>()
+        //.HasOne(e => e.MarksPolicy)
+        //.WithMany(e => e.PolicyDetails)
+        //.HasForeignKey(e => e.MarksPolicyId)
+        //.IsRequired();
+        modelBuilder.Entity<RoleDepartment>().HasNoKey();
         base.OnModelCreating(modelBuilder);
         OnModelCreatingPartial(modelBuilder);
        

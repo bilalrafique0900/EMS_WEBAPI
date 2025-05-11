@@ -70,5 +70,29 @@ namespace EmployeeSystem.Application.Controllers.JobDescription
                 Message = StaticVariables.SaveUpdatedRecord
             });
         }
+        [HttpGet]
+        [Route("approve/{id}")]
+        public async Task<IActionResult> Approve(Guid id)
+        {
+            var ApprovedBy = Guid.Parse(User?.Identity?.Name);
+            return Ok(new ApiResponseModel
+            {
+                Status = true,
+                Data = await _jobdescriptionRepository.Approve(id,ApprovedBy),
+                Message = StaticVariables.SaveUpdatedRecord
+            });
+        }
+        [HttpGet]
+        [Route("publish/{id}")]
+        public async Task<IActionResult> Publish(Guid id)
+        {
+            var PublishedBy = Guid.Parse(User?.Identity?.Name);
+            return Ok(new ApiResponseModel
+            {
+                Status = true,
+                Data = await _jobdescriptionRepository.Publish(id,PublishedBy),
+                Message = StaticVariables.SaveUpdatedRecord
+            });
+        }
     }
 }

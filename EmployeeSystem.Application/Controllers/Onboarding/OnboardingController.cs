@@ -41,7 +41,18 @@ namespace EmployeeSystem.Application.Controllers.Onboarding
                 Message = StaticVariables.SaveUpdatedRecord
             });
         }
-        [HttpGet("get-onboarding-byId")]
+        [HttpPost("post-onboarding")]
+        public async Task<IActionResult> CreateUpdate(OnboardingDto obj)
+        {
+            obj.CreatedBy = Guid.Parse(User?.Identity?.Name);
+            return Ok(new ApiResponseModel
+            {
+                Status = true,
+                Data = await _OnboardingRepository.CreateUpdate(obj),
+                Message = StaticVariables.SaveUpdatedRecord
+            });
+        }
+            [HttpGet("get-onboarding-byId")]
         public async Task<IActionResult> GetOnboardingById(Guid onboardingId)
         {
             return Ok(new ApiResponseModel

@@ -4,6 +4,7 @@ using EmployeeSystem.EntityFrameworkCore.DBContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EmployeeSystem.EntityFrameworkCore.Migrations
 {
     [DbContext(typeof(EmployeeDBContext))]
-    partial class EmployeeDBContextModelSnapshot : ModelSnapshot
+    [Migration("20250430074235_addcolumnsinusertable")]
+    partial class addcolumnsinusertable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -718,9 +721,6 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid?>("ApprovedBy")
-                        .HasColumnType("uniqueidentifier");
-
                     b.Property<Guid?>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
 
@@ -749,13 +749,7 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                     b.Property<bool?>("IsActive")
                         .HasColumnType("bit");
 
-                    b.Property<bool?>("IsApproved")
-                        .HasColumnType("bit");
-
                     b.Property<bool?>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<bool?>("IsPublished")
                         .HasColumnType("bit");
 
                     b.Property<DateTime?>("JobOpeningDate")
@@ -767,9 +761,6 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.Property<Guid?>("PostHostId")
                         .HasMaxLength(100)
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid?>("PublishedBy")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Title")
@@ -1179,17 +1170,6 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                     b.HasKey("RoleId");
 
                     b.ToTable("Roles");
-                });
-
-            modelBuilder.Entity("EmployeeSystem.Domain.Models.RoleDepartment", b =>
-                {
-                    b.Property<Guid>("DepartmentId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("RoleId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.ToTable("RoleDepartments");
                 });
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.RolePermission", b =>

@@ -7,20 +7,19 @@ using System.Threading.Tasks;
 
 namespace EmployeeSystem.Application.Contracts.DTO
 {
-    public class UserDto
+    public class RoleDepartmentDto
     {
-        public Guid? UserId { get; set; }
-        public string? FullName { get; set; }
-        public string? Password { get; set; }
-        public string? Email { get; set; }
         public Guid RoleId { get; set; }
+
+        public Guid DepartmentId { get; set; }
         public string? RoleName { get; set; }
+
+        public string DepartmentName { get; set; }
+
         public int? TotalRecords { get; set; }
-        public bool? IsActive { get; set; }
+      
         public bool? IsDeleted { get; set; }
         public Guid? CreatedBy { get; set; }
-        public bool? IsJobCreator { get; set; }
-        public bool? IsJobApprover { get; set; }
-        public bool? IsJobPublisher { get; set; }
+    
     }
 }

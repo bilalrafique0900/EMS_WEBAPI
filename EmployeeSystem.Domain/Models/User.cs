@@ -17,4 +17,7 @@ public partial class User: BaseModel
     [Required, StringLength(100)]
     public string Password { get; set; }
     public Guid RoleId { get; set; }
+    public bool? IsJobCreator { get; set; }
+    public bool? IsJobApprover { get; set; }
+    public bool? IsJobPublisher { get; set; }
 }
