@@ -58,6 +58,17 @@ namespace EmployeeSystem.Infra.Repositories.Onboarding
             await _dbContext.SaveChangesAsync();
             return true;
         }
+        public async Task<bool> Delete(Guid onboardingId)
+        {
+            var rec = await _dbContext.Onboardings.FirstOrDefaultAsync(x => x.OnboardingId == onboardingId);
+            if (rec != null)
+            {
+                rec.IsDeleted = rec.IsDeleted == true ? false : true;
+            }
+            await _dbContext.SaveChangesAsync();
+            return true;
+        }
+
         public async Task<Domain.Models.Onboarding> GetOnboardingById(Guid onboardingId)
         {
             var OnboardingRecordFormDB = await _dbContext.Onboardings.Where(x => x.OnboardingId == onboardingId).FirstOrDefaultAsync();

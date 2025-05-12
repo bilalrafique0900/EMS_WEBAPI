@@ -14,6 +14,7 @@ using iText.Commons.Actions.Contexts;
 using EmployeeSystem.Infra.IRepositories.IUserManagement;
 using EmployeeSystem.EntityFrameworkCore.Migrations;
 using StackExchange.Redis;
+using Microsoft.Data.SqlClient;
 
 namespace EmployeeSystem.Infra.Repositories.UserManagement
 {

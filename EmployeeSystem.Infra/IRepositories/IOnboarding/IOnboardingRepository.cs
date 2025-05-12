@@ -9,6 +9,7 @@ namespace EmployeeSystem.Infra.IRepositories.IOnboarding
         Task<bool> CreateUpdate(EmployeeSystem.Domain.Models.Onboarding obj);
         Task<IEnumerable<Onboarding>> GetOnboardings();
         Task<Onboarding> GetOnboardingById(Guid onboardingId);
+        Task<bool> Delete(Guid onboardingId);
         Task<bool> Active(Guid onboardingId);
         Task<IEnumerable<OnboardingDto>> GetOnboardingsPaginated(int pageNo, int pageSize, string searchText);
 
