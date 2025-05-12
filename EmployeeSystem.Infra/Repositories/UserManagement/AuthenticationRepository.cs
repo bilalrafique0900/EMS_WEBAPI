@@ -17,14 +17,16 @@ namespace EmployeeSystem.Infra.Repositories.UserManagement
         private readonly JwtHandler _jwtHandler;
         private readonly IRolePermissionRepository _rolePermissionRepository;
         private readonly IRoleRepository _iRoleRepository;
+        private readonly IJobPermissionRepository _iJobPermissionRepository;
         private readonly IMailService _mailService;
-        public AuthenticationRepository(EmployeeDBContext appDbContext, IUserRepository userRepository, JwtHandler jwtHandler, IRolePermissionRepository rolePermissionRepository, IRoleRepository iRoleRepository, IMailService mailService)
+        public AuthenticationRepository(EmployeeDBContext appDbContext, IUserRepository userRepository, JwtHandler jwtHandler, IRolePermissionRepository rolePermissionRepository, IRoleRepository iRoleRepository, IJobPermissionRepository iJobPermissionRepository, IMailService mailService)
         {
             _dbContext = appDbContext;
             _userRepository = userRepository;
             _jwtHandler = jwtHandler;
             _rolePermissionRepository = rolePermissionRepository;
             _iRoleRepository = iRoleRepository;
+            _iJobPermissionRepository= iJobPermissionRepository;
             _mailService = mailService;
         }
         public async Task<ApiResponseModel> LoginUserAsync(LoginDto loginRequest)
@@ -40,7 +42,7 @@ namespace EmployeeSystem.Infra.Repositories.UserManagement
                 };
             }
             var role = await _iRoleRepository.GetById(user.RoleId);
-
+            var jobPermission = await _iJobPermissionRepository.GetJobPermissionByRoleId(user.RoleId);
             LoginStudent student = null;
             LoginParent parent = null;
             LoginTeacher teacher = null;
@@ -72,9 +74,9 @@ namespace EmployeeSystem.Infra.Repositories.UserManagement
                         RoleKeyCode = role.KeyCode,
                         role.DefaultUrl,
                         user.FullName,
-                        user.IsJobCreator,
-                        user.IsJobApprover,
-                        user.IsJobPublisher
+                        jobPermission.IsJobCreator,
+                        jobPermission.IsJobApprover,
+                        jobPermission.IsJobPublisher
                     },
                     student,
                     teacher,

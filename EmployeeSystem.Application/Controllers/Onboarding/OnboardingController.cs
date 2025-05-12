@@ -42,7 +42,7 @@ namespace EmployeeSystem.Application.Controllers.Onboarding
             });
         }
         [HttpPost("post-onboarding")]
-        public async Task<IActionResult> CreateUpdate(OnboardingDto obj)
+        public async Task<IActionResult> CreateUpdate(EmployeeSystem.Domain.Models.Onboarding obj)
         {
             obj.CreatedBy = Guid.Parse(User?.Identity?.Name);
             return Ok(new ApiResponseModel

@@ -28,7 +28,7 @@ namespace EmployeeSystem.Controllers.UserManagement
                 Message = StaticVariables.SaveUpdatedRecord
             });
         }
-       
+
         [HttpPost]
         [Route("add-roledepartment")]
         public async Task<IActionResult> Add(RoleDepartmentDto obj)

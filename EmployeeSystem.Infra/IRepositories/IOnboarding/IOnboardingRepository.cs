@@ -6,7 +6,7 @@ namespace EmployeeSystem.Infra.IRepositories.IOnboarding
 {
     public interface IOnboardingRepository : IGenericRepository<Onboarding>
     {
-        Task<bool> CreateUpdate(OnboardingDto obj);
+        Task<bool> CreateUpdate(EmployeeSystem.Domain.Models.Onboarding obj);
         Task<IEnumerable<Onboarding>> GetOnboardings();
         Task<Onboarding> GetOnboardingById(Guid onboardingId);
         Task<bool> Active(Guid onboardingId);

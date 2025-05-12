@@ -34,7 +34,7 @@ namespace EmployeeSystem.Infra.Repositories.Onboarding
             _hub = hub;
             
         }
-        public async Task<bool> CreateUpdate(OnboardingDto obj)
+        public async Task<bool> CreateUpdate(EmployeeSystem.Domain.Models.Onboarding obj)
         {
             var rec = await _dbContext.Onboardings.FirstOrDefaultAsync(x => x.OnboardingId == obj.OnboardingId);
             if (rec != null)
@@ -51,8 +51,8 @@ namespace EmployeeSystem.Infra.Repositories.Onboarding
                     obj.IsDeleted = false;
                     obj.IsActive = true;
                     obj.OnboardingId = Guid.NewGuid();
-                    var StudentMapped = this._mapper.Map<OnboardingDto, EmployeeSystem.Domain.Models.Onboarding>(obj);
-                    await _dbContext.Onboardings.AddAsync(StudentMapped);
+                   // var StudentMapped = this._mapper.Map<OnboardingDto, EmployeeSystem.Domain.Models.Onboarding>(obj);
+                    await _dbContext.Onboardings.AddAsync(obj);
                 }
 
             await _dbContext.SaveChangesAsync();

@@ -12,6 +12,8 @@ using Org.BouncyCastle.Ocsp;
 using static iText.StyledXmlParser.Jsoup.Select.Evaluator;
 using iText.Commons.Actions.Contexts;
 using EmployeeSystem.Infra.IRepositories.IUserManagement;
+using EmployeeSystem.EntityFrameworkCore.Migrations;
+using StackExchange.Redis;
 
 namespace EmployeeSystem.Infra.Repositories.UserManagement
 {

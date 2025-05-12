@@ -12,6 +12,7 @@ using EmployeeSystem.Infra.IRepositories.IIAceessriesRepo;
 using EmployeeSystem.Infra.IRepositories.IJobDescription;
 using EmployeeSystem.Infra.IRepositories.ILovType;
 using EmployeeSystem.Infra.IRepositories.IMasterData;
+using EmployeeSystem.Infra.IRepositories.IOnboarding;
 using EmployeeSystem.Infra.IRepositories.IReporting;
 using EmployeeSystem.Infra.IRepositories.IUserManagement;
 using EmployeeSystem.Infra.IRepositories.UserManagement;
@@ -25,6 +26,7 @@ using EmployeeSystem.Infra.Repositories.EmployeeAccessoriesRepostery;
 using EmployeeSystem.Infra.Repositories.File;
 using EmployeeSystem.Infra.Repositories.JobDescription;
 using EmployeeSystem.Infra.Repositories.MasterData;
+using EmployeeSystem.Infra.Repositories.Onboarding;
 using EmployeeSystem.Infra.Repositories.Report;
 using EmployeeSystem.Infra.Repositories.UserManagement;
 using EmployeeSystem.Infra.Services;
@@ -45,7 +47,7 @@ namespace EmployeeSystem.Infra
             services.AddTransient<IUserRepository, UserRepository>();
             services.AddTransient<IRoleRepository, RoleRepository>();
             services.AddTransient<IRolePermissionRepository, RolePermissionRepository>();
-            services.AddTransient<IAuthenticationRepository, AuthenticationRepository>();;
+            services.AddTransient<IAuthenticationRepository, AuthenticationRepository>();
             services.AddTransient<ILovTypeRepository, LovTypeRepository>();
             services.AddTransient<IDocumentRepository, DocumentRepository>();
             services.AddSingleton(typeof(IDapperConfig), typeof(DapperConfig));
@@ -66,7 +68,9 @@ namespace EmployeeSystem.Infra
             services.AddSingleton<IMailService, MailService>();
             services.AddScoped<IEmployeeAccessoriesRepository, EmployeeAccessoriesRepostery>();
             services.AddScoped<IAceessriesRepository, AccessriesRepostery>();
-
+            services.AddTransient<IOnboardingRepository, OnboardingRepository>();
+            services.AddTransient<IRoleDepartmentRepository, RoleDepartmentRepository>();
+            services.AddTransient<IJobPermissionRepository, JobPermissionRepository>();
             return services;
         }
     }
