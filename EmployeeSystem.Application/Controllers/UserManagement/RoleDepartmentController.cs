@@ -33,7 +33,7 @@ namespace EmployeeSystem.Controllers.UserManagement
         [Route("add-roledepartment")]
         public async Task<IActionResult> Add(RoleDepartmentDto obj)
         {
-            obj. CreatedBy = Guid.Parse(User?.Identity?.Name);
+            obj.CreatedBy = Guid.Parse(User?.Identity?.Name);
             var result = await _roleDepartmentRepository.AddRoleDepartmentAsync(obj);
             var response = new ApiResponseModel
             {
@@ -55,8 +55,7 @@ namespace EmployeeSystem.Controllers.UserManagement
             });
         }
      
-        [HttpGet]
-        [Route("delete")]
+        [HttpDelete]
         public async Task<IActionResult> Delete(Guid departmentId,Guid roleId)
         {
             return Ok(new ApiResponseModel

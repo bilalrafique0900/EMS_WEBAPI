@@ -14,7 +14,7 @@ namespace EmployeeSystem.Application.Contracts.DTO
         public Guid DepartmentId { get; set; }
         public string? RoleName { get; set; }
 
-        public string DepartmentName { get; set; }
+        public string? DepartmentName { get; set; }
 
         public int? TotalRecords { get; set; }
       

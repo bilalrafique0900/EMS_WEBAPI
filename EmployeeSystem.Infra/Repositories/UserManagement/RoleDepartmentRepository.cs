@@ -12,6 +12,7 @@ using Org.BouncyCastle.Ocsp;
 using static iText.StyledXmlParser.Jsoup.Select.Evaluator;
 using iText.Commons.Actions.Contexts;
 using EmployeeSystem.Infra.IRepositories.IUserManagement;
+using Microsoft.Data.SqlClient;
 
 namespace EmployeeSystem.Infra.Repositories.UserManagement
 {
@@ -27,7 +28,7 @@ namespace EmployeeSystem.Infra.Repositories.UserManagement
             _logger = logger;
         }
 
-        public async Task<bool> AddRoleDepartmentAsync(RoleDepartmentDto user)
+        public async Task<bool> AddRoleDepartmentAsync1(RoleDepartmentDto user)
         {
             if (user.DepartmentId != null)
             {
@@ -48,13 +49,58 @@ namespace EmployeeSystem.Infra.Repositories.UserManagement
                         DepartmentId = user.DepartmentId
                        
                     };
-                    await _dbContext.RoleDepartments.AddAsync(usr);
+
+                    _dbContext.Entry(usr).State = EntityState.Added;
+                    //await _dbContext.RoleDepartments.AddAsync(usr);
                 }
                 await _dbContext.SaveChangesAsync();
                 return true;
             }
             return false;
         }
+
+        public async Task<bool> AddRoleDepartmentAsync(RoleDepartmentDto user)
+        {
+            if (user.DepartmentId != null)
+            {
+                // Check if the record exists using LINQ
+                var exists = await _dbContext.RoleDepartments
+                    .IgnoreQueryFilters() // optional
+                    .AnyAsync(r => r.RoleId == user.RoleId && r.DepartmentId == user.DepartmentId);
+
+                if (!exists)
+                {
+                    // Insert if not exists
+                    var insertQuery = @"
+                INSERT INTO RoleDepartments (RoleId, DepartmentId) 
+                VALUES (@RoleId, @DepartmentId)";
+
+                    await _dbContext.Database.ExecuteSqlRawAsync(insertQuery,
+                        new SqlParameter("@RoleId", user.RoleId),
+                        new SqlParameter("@DepartmentId", user.DepartmentId));
+                }
+                else
+                {
+                    // Update — add any fields you may need to update
+                    var updateQuery = @"
+                UPDATE RoleDepartments 
+                SET RoleId = @RoleId, DepartmentId = @DepartmentId
+                WHERE RoleId = @RoleId AND DepartmentId = @DepartmentId";
+
+                    await _dbContext.Database.ExecuteSqlRawAsync(updateQuery,
+                        new SqlParameter("@RoleId", user.RoleId),
+                        new SqlParameter("@DepartmentId", user.DepartmentId));
+                }
+
+                return true;
+            }
+
+            return false;
+        }
+
+
+
+
         public async Task<IEnumerable<RoleDepartmentDto>> GetRoleDepartments(int pageNo, int pageSize, string searchText)
         {
             var parameters = new DynamicParameters();

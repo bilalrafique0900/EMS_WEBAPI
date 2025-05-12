@@ -66,6 +66,7 @@ namespace EmployeeSystem.Infra
             services.AddSingleton<IMailService, MailService>();
             services.AddScoped<IEmployeeAccessoriesRepository, EmployeeAccessoriesRepostery>();
             services.AddScoped<IAceessriesRepository, AccessriesRepostery>();
+            services.AddScoped<IRoleDepartmentRepository, RoleDepartmentRepository>();
 
             return services;
         }
