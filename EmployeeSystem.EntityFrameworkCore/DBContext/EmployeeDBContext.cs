@@ -45,7 +45,7 @@ public partial class EmployeeDBContext : DbContext
 
     public virtual DbSet<Accessories> Accessories { get; set; }
     public virtual DbSet<EmployeeAccessories> EmployeeAccessories { get; set; }
-
+    public virtual DbSet<JobPermission> JobPermissions { get; set; }
 
 
 

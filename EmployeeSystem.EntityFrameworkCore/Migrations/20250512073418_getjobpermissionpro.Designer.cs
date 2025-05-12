@@ -4,6 +4,7 @@ using EmployeeSystem.EntityFrameworkCore.DBContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EmployeeSystem.EntityFrameworkCore.Migrations
 {
     [DbContext(typeof(EmployeeDBContext))]
-    partial class EmployeeDBContextModelSnapshot : ModelSnapshot
+    [Migration("20250512073418_getjobpermissionpro")]
+    partial class getjobpermissionpro
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -789,10 +792,6 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
             modelBuilder.Entity("EmployeeSystem.Domain.Models.JobPermission", b =>
                 {
-                    b.Property<Guid>("JobPermssionId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
                     b.Property<Guid>("DepartmentId")
                         .HasColumnType("uniqueidentifier");
 
@@ -807,8 +806,6 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
 
                     b.Property<Guid>("RoleId")
                         .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("JobPermssionId");
 
                     b.ToTable("JobPermissions");
                 });
@@ -1303,6 +1300,15 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                         .HasColumnType("bit");
 
                     b.Property<bool?>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("IsJobApprover")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("IsJobCreator")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("IsJobPublisher")
                         .HasColumnType("bit");
 
                     b.Property<string>("Password")
