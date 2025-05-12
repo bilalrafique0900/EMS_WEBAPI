@@ -127,9 +127,15 @@ namespace EmployeeSystem.Infra.Repositories.UserManagement
        
         public bool Delete(Guid departmentId,Guid roleId)
         {
-            var rec =  _dbContext.RoleDepartments.IgnoreQueryFilters().FirstOrDefaultAsync(x => x.DepartmentId == departmentId && x.RoleId==roleId);
-            
-            _dbContext.Remove(rec);
+            //var rec =   _dbContext.RoleDepartments.IgnoreQueryFilters().FirstOrDefault(x => x.DepartmentId == departmentId && x.RoleId==roleId);
+
+            //_dbContext.Remove(rec);
+            var deleteQuery = @"
+                DELETE FROM RoleDepartments 
+                WHERE RoleId = @RoleId AND DepartmentId = @DepartmentId";
+             _dbContext.Database.ExecuteSqlRaw(deleteQuery,
+                new SqlParameter("@RoleId", roleId),
+                new SqlParameter("@DepartmentId", departmentId));
             return true;
         }
 
