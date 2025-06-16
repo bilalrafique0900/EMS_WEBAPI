@@ -39,4 +39,12 @@ namespace EmployeeSystem.Application.Contracts.DTO
 
 
     }
+
+    public class OnboardingLookupDto 
+    {
+        public Guid OnboardingId { get; set; }
+
+        public string? CompanyName { get; set; }
+
+    }
 }

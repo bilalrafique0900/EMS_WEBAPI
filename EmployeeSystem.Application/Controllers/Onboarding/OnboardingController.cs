@@ -77,6 +77,17 @@ namespace EmployeeSystem.Application.Controllers.Onboarding
             });
         }
 
+        [HttpGet("get-all")]
+        public async Task<IActionResult> GetAll()
+        {
+            return Ok(new ApiResponseModel
+            {
+                Status = true,
+                Data = await _OnboardingRepository.GetAllBoardings(),
+                Message = StaticVariables.SaveUpdatedRecord
+            });
+        }
+
 
 
     }

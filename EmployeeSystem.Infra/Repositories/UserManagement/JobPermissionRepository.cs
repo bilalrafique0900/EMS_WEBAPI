@@ -25,24 +25,34 @@ namespace EmployeeSystem.Infra.Repositories.UserManagement
         }
         public async Task<JobPermission> GetJobPermissionByRoleId(Guid roleId)
         {
-            var rec = await _dbContext.JobPermissions.FirstOrDefaultAsync(x => x.RoleId == roleId);
-            if (rec != null)
+            try
             {
-                return rec;
-            }
-            else
-            {
-                JobPermission obj = new()
+                var rec = await _dbContext.JobPermissions.FirstOrDefaultAsync(x => x.RoleId == roleId);
+                if (rec != null)
                 {
-                    JobPermssionId = Guid.NewGuid(),
-                    IsJobCreator = false,
-                    IsJobApprover = false,
-                    IsJobPublisher = false,
-                    RoleId = roleId
-                };
-           return obj;
+                    return rec;
+                }
+                else
+                {
+                    JobPermission obj = new()
+                    {
+                        JobPermssionId = Guid.NewGuid(),
+                        IsJobCreator = false,
+                        IsJobApprover = false,
+                        IsJobPublisher = false,
+                        RoleId = roleId
+                    };
+                    return obj;
+                }
             }
-        }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+          
+            }
+        
         public async Task<bool> IsJobCreator(Guid roleId, Guid departmentId)
         {
             var rec = await _dbContext.JobPermissions.FirstOrDefaultAsync(x => x.RoleId == roleId && x.DepartmentId == departmentId);
