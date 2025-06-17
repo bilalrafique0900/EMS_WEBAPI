@@ -27,16 +27,16 @@ SELECT
     rl.RoleName,
     us.IsActive,
     us.IsDeleted,
-    COALESCE(jp.IsJobCreator, 0) AS IsJobCreator,
-    COALESCE(jp.IsJobApprover, 0) AS IsJobApprover,
-    COALESCE(jp.IsJobPublisher, 0) AS IsJobPublisher,
+    --COALESCE(jp.IsJobCreator, 0) AS IsJobCreator,
+    --COALESCE(jp.IsJobApprover, 0) AS IsJobApprover,
+    --COALESCE(jp.IsJobPublisher, 0) AS IsJobPublisher,
     COUNT(*) OVER() AS TotalRecords
 FROM 
     Users us
 INNER JOIN 
     Roles rl ON rl.RoleId = us.RoleId
-LEFT JOIN 
-    JobPermissions jp ON jp.RoleId = us.RoleId
+--LEFT JOIN 
+--    JobPermissions jp ON jp.RoleId = us.RoleId
 WHERE 
     (@seaechText = '' OR us.FullName LIKE '%' + @seaechText + '%')
     OR (@seaechText = '' OR us.Email LIKE '%' + @seaechText + '%')
@@ -48,6 +48,7 @@ OFFSET ((@pageNo - 1) * @pageSize) ROWS
 FETCH NEXT @pageSize ROWS ONLY;
 
 END ;
+
 ");
         }
 

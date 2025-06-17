@@ -4,6 +4,7 @@ using EmployeeSystem.EntityFrameworkCore.DBContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EmployeeSystem.EntityFrameworkCore.Migrations
 {
     [DbContext(typeof(EmployeeDBContext))]
-    partial class EmployeeDBContextModelSnapshot : ModelSnapshot
+    [Migration("20250615081803_clientid")]
+    partial class clientid
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -959,7 +962,8 @@ namespace EmployeeSystem.EntityFrameworkCore.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ContactPersonName")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("ContactPhoneNumber")
                         .HasMaxLength(100)

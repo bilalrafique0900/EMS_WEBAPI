@@ -68,6 +68,20 @@ namespace EmployeeSystem.Infra.Repositories.Onboarding
             await _dbContext.SaveChangesAsync();
             return true;
         }
+        public async Task<string> GetClientCode()
+        {
+            var EmployeeRecordFormDB = await _dbContext.Onboardings.ToListAsync();
+            if (EmployeeRecordFormDB.Count > 9)
+                return "C-" + (EmployeeRecordFormDB.Count + 1).ToString();
+            else
+            {
+         if(EmployeeRecordFormDB.Count>0)
+                    return "C-0" + (EmployeeRecordFormDB.Count + 1).ToString();
+         else
+                    return "C-01";
+            }
+               
+        }
 
         public async Task<Domain.Models.Onboarding> GetOnboardingById(Guid onboardingId)
         {
@@ -77,7 +91,7 @@ namespace EmployeeSystem.Infra.Repositories.Onboarding
 
         public async Task<IEnumerable<Domain.Models.Onboarding>> GetOnboardings()
         {
-            var OnboardingRecordFormDB = await _dbContext.Onboardings.ToListAsync();
+            var OnboardingRecordFormDB = await _dbContext.Onboardings.Where(m=>m.IsDeleted!=true).ToListAsync();
          
                 return OnboardingRecordFormDB;
         }

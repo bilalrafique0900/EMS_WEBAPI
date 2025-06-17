@@ -11,7 +11,7 @@ namespace EmployeeSystem.Application.Contracts.DTO
     public class OnboardingDto : BaseModel
     {
         public Guid OnboardingId { get; set; }
-        
+        public string? ClientId { get; set; }
         public string? CompanyName { get; set; }
         
         public string? ContactPersonName { get; set; }

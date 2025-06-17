@@ -62,8 +62,18 @@ namespace EmployeeSystem.Application.Controllers.Onboarding
                 Message = StaticVariables.SaveUpdatedRecord
             });
         }
+        [HttpGet("get-clientcode")]
+        public async Task<IActionResult> GetClientCode()
+        {
+            return Ok(new ApiResponseModel
+            {
+                Status = true,
+                Data = await _OnboardingRepository.GetClientCode(),
+                Message = StaticVariables.SaveUpdatedRecord
+            });
+        }
 
-        
+
 
         [HttpGet]
         [Route("active")]
@@ -77,6 +87,16 @@ namespace EmployeeSystem.Application.Controllers.Onboarding
             });
         }
 
+        [HttpDelete]
+        public async Task<IActionResult> Delete(Guid onboardingId)
+        {
+            return Ok(new ApiResponseModel
+            {
+                Status = true,
+                Data = await _OnboardingRepository.Delete(onboardingId),
+                Message = StaticVariables.SaveUpdatedRecord
+            });
+        }
 
 
     }

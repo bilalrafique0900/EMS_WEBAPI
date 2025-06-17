@@ -10,6 +10,7 @@ public partial class Onboarding: BaseModel
     [StringLength(100)]
     public string? CompanyName { get; set; }
     [StringLength(100)]
+    public string? ClientId { get; set; }
     public string? ContactPersonName { get; set; }
     public string? ContactEmailAddress { get; set; }
     [StringLength(100)]
