@@ -14,6 +14,7 @@ namespace EmployeeSystem.Infra.IRepositories.IOnboarding
         Task<bool> Active(Guid onboardingId);
         Task<IEnumerable<OnboardingDto>> GetOnboardingsPaginated(int pageNo, int pageSize, string searchText);
 
+        Task<IEnumerable<OnboardingLookupDto>> GetAllBoardings();
 
 
 

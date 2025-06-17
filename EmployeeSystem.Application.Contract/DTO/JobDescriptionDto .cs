@@ -35,8 +35,11 @@ namespace EmployeeSystem.Application.Contracts.DTO
         public Guid? ApprovedBy { get; set; }
         public bool? IsApproved { get; set; }
 
-        public Guid? PublishedBy { get; set; }
+        public Guid? PublishedBy { get; set; }  
         public bool? IsPublished { get; set; }
+
+        public Guid? OnboardingId { get; set; }
+        public string? CompanyName { get; set; }
 
 
 

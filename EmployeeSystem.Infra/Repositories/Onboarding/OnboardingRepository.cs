@@ -130,8 +130,17 @@ namespace EmployeeSystem.Infra.Repositories.Onboarding
             var Onboarding = await _dapper.QueryAsync<OnboardingDto>("GetOnboardings", parameters, CommandType.StoredProcedure).ConfigureAwait(true);
             return Onboarding;
         }
+ 
+        public async Task<IEnumerable<OnboardingLookupDto>> GetAllBoardings()
+        {
 
+            var onBoardings = await _dbContext.Onboardings.Select(a => new OnboardingLookupDto
+            {
+                OnboardingId = a.OnboardingId,
+                CompanyName = a.CompanyName,
 
-
+            }).ToListAsync();
+            return onBoardings;
+        }
     }
 }

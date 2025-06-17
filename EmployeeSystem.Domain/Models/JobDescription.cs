@@ -35,4 +35,5 @@ public partial class JobDescription : BaseModel
     {
         get; set;
     }
+    public Guid? OnboardingId { get; set; }
 }
