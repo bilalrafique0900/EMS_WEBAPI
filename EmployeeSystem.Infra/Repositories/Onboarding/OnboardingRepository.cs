@@ -134,7 +134,7 @@ namespace EmployeeSystem.Infra.Repositories.Onboarding
         public async Task<IEnumerable<OnboardingLookupDto>> GetAllBoardings()
         {
 
-            var onBoardings = await _dbContext.Onboardings.Select(a => new OnboardingLookupDto
+            var onBoardings = await _dbContext.Onboardings.Where(m=>m.IsDeleted!=true).Select(a => new OnboardingLookupDto
             {
                 OnboardingId = a.OnboardingId,
                 CompanyName = a.CompanyName,

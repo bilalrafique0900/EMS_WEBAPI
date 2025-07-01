@@ -14,11 +14,8 @@ namespace EmployeeSystem.Application.Contracts.DTO
         public string? ClientId { get; set; }
         public string? CompanyName { get; set; }
         
-        public string? ContactPersonName { get; set; }
-        
-        public string? ContactEmailAddress { get; set; }
-        
-        public string? ContactPhoneNumber { get; set; }
+        public string? ContactPersonInfo { get; set; }
+       
         
         public string? ClientType { get; set; }
       
@@ -28,8 +25,9 @@ namespace EmployeeSystem.Application.Contracts.DTO
         
         public string? ServicesRequired { get; set; }
         
+        public DateTime? ContractDate { get; set; }
         public DateTime? OnboardingStartDate { get; set; }
-      
+
         public string? SpecialRequirementOrNotes { get; set; }
 
 
