@@ -15,72 +15,24 @@ namespace EmployeeSystem.Infra.Repositories.File
     internal class FileRepository : IFileRepository
     {
         private readonly EmployeeDBContext _context;
-
-        public FileRepository(EmployeeDBContext employeeDBContext)
+        public FileRepository(EmployeeDBContext context)  
         {
-            _context = employeeDBContext;
+            _context = context;
         }
 
-        public async Task<Files> AddFileAsync(Files file)
+        public async Task<CV> AddAsync(CV cv)
         {
-            try
-            {
-                await _context.Files.AddAsync(file);
-                await _context.SaveChangesAsync();
-                return file;
-            }
-            catch (Exception ex)
-            {
-
-                throw;
-            }
-          
-        }
-
-        public async Task<List<Files>> AddFilesAsync(List<Files> files)
-        {
-            await _context.Files.AddRangeAsync(files);
+            _context.CVs.Add(cv);
             await _context.SaveChangesAsync();
-            return files;
+            return cv;
         }
 
-        public async Task DeleteFileAsync(int fileId)
+        public async Task<List<CV>> GetAllAsync()
         {
-            var file = await _context.Files.FindAsync(fileId);
-            if (file != null)
-            {
-                _context.Files.Remove(file);
-                await _context.SaveChangesAsync();
-            }
+            return await _context.CVs
+             .Include(c => c.JobDescription)
+             .Include(c => c.PostHost)
+             .ToListAsync();
         }
-
-        public async Task<Files> GetFileByIdAsync(int fileId)
-        {
-            return await _context.Files.FirstOrDefaultAsync(f => f.Id == fileId);
-        }
-
-        public async Task<List<Files>> GetAllFilesAsync()
-        {
-            return await _context.Files.ToListAsync();
-        }
-
-
-
-
-        public async Task<IEnumerable<Files>> GetFilesByJobDescriptionIdAsync(Guid jobDescriptionId)
-        {
-            return await _context.Files.Where(a=>a.JobDescriptionId==jobDescriptionId).ToListAsync();
-        }
-
-        public async Task<bool> UpdateFileStatusAsync(int fileId, string status)
-        {
-            var file = await _context.Files.FindAsync(fileId);
-            if (file == null) return false;
-
-            file.Status = status;  
-            await _context.SaveChangesAsync();
-            return true;
-        }
-
     }
 }

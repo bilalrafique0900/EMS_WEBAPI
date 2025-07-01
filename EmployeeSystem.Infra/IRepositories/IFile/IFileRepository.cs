@@ -10,13 +10,8 @@ namespace EmployeeSystem.Infra.IRepositories.IFile
 {
     public interface IFileRepository
     {
-        Task<Files> AddFileAsync(Files file);
-        Task<IEnumerable<Files>> GetFilesByJobDescriptionIdAsync(Guid jobDescriptionId);
-        Task<Files> GetFileByIdAsync(int fileId);
-        Task<List<Files>> GetAllFilesAsync();
-        Task DeleteFileAsync(int fileId);
-
-        Task<bool> UpdateFileStatusAsync(int fileId, string comment);
+        Task<List<CV>> GetAllAsync();
+        Task<CV> AddAsync(CV cv);
 
     }
 }
