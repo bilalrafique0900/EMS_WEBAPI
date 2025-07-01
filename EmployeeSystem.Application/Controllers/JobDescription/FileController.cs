@@ -27,140 +27,38 @@ namespace EmployeeSystem.Application.Controllers.JobDescription
             _fileRepository = fileRepository;
         }
 
-        //1st
-        [HttpPost("upload")]
-        public async Task<IActionResult> UploadFiles([FromForm]UploadRequestDto request)
+        [HttpPost]
+        public async Task<IActionResult> Create([FromBody] CVDto dto)
         {
-            if (request.Files == null || request.Files.Count == 0)
-                return BadRequest("No files uploaded.");
-
-            if (!Guid.TryParse(request.JobDescriptionId, out Guid parsedJobDescriptionId))
-                return BadRequest("Invalid JobDescriptionId format.");
-
-            var fileList = new List<Files>();
-            var uploadDir = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "CVs", request.JobDescriptionId);
-
-            if (!Directory.Exists(uploadDir))
-                Directory.CreateDirectory(uploadDir); 
-
-            foreach (var file in request.Files)
+            var cv = new CV
             {
-                var filePath = Path.Combine(uploadDir, file.FileName);
+                CVCount = dto.CVCount,
+                PostHostId = dto.PostHostId,
+                JobDescriptionId = dto.JobDescriptionId
+            };
 
-                using (var stream = new FileStream(filePath, FileMode.Create))
-                {
-                    await file.CopyToAsync(stream);
-                }
-
-                var fileModel = new Files
-                {
-                    FileName = file.FileName,
-                    FilePath = filePath,
-                    ContentType = file.ContentType,
-                    JobDescriptionId = parsedJobDescriptionId
-                };
-
-                var savedFile = await _fileRepository.AddFileAsync(fileModel);
-                fileList.Add(savedFile);
-            }
-
-            return Ok(fileList);
+            var result = await _fileRepository.AddAsync(cv);
+            return Ok(new { message = "CV saved successfully!", data = result.Id });
         }
 
-
-
-       //2nd
-        [HttpPost("test-upload")]
-        public IActionResult TestUpload([FromForm] string jobDescriptionId, [FromForm] string jobDescriptionId1)
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
         {
-            Console.WriteLine($"JobDescriptionId: {jobDescriptionId}");
-            Console.WriteLine($"JobDescriptionId1: {jobDescriptionId1}");
+            var data = await _fileRepository.GetAllAsync();
 
-            if (string.IsNullOrEmpty(jobDescriptionId) || string.IsNullOrEmpty(jobDescriptionId1))
+            var result = data.Select(c => new CVDto
             {
-                return BadRequest("JobDescriptionId or JobDescriptionId1 is null or empty.");
-            }
+                Id = c.Id,
+                CVCount = c.CVCount,
+                PostHostId = c.PostHostId,
+                JobDescriptionId = c.JobDescriptionId,
+                PostHostName = c.PostHost?.PostHostName,
+                JobDescriptionName = c.JobDescription?.Title
+            }).ToList();
 
-            return Ok("Success");
-        }
-
-
-
-        // 3rd
-        [HttpGet("files")]
-        public async Task<IActionResult> GetFiles(Guid jobDescriptionId)
-        {
-            var files = await _fileRepository.GetFilesByJobDescriptionIdAsync(jobDescriptionId);
-            if (!files.Any())
-                return NotFound("No files found.");
-
-            return Ok(files); 
-        }
-
-
-        [AllowAnonymous] 
-        [HttpGet("all-files")]
-        public async Task<IActionResult> GetAllFiles()
-        {
-            var files = await _fileRepository.GetAllFilesAsync();
-            if (!files.Any())
-                return NotFound("No files found.");
-
-            return Ok(files);
-        }
-
-
-
-        // 5rd
-        [HttpGet("download/{id}")]
-        public async Task<IActionResult> DownloadFile(int id)
-        {
-            var file = await _fileRepository.GetFileByIdAsync(id);
-            if (file == null)
-                return NotFound("File not found.");
-
-            var fileBytes = await System.IO.File.ReadAllBytesAsync(file.FilePath);
-            return File(fileBytes, file.ContentType, file.FileName);
-        }
-
-        // 6th
-        [HttpDelete("delete/{id}")]
-        public async Task<IActionResult> DeleteFile(int id)
-        {
-            var file = await _fileRepository.GetFileByIdAsync(id);
-            if (file == null)
-                return NotFound("File not found.");
-
-            if (System.IO.File.Exists(file.FilePath))
-            {
-                System.IO.File.Delete(file.FilePath);
-            }
-
-            await _fileRepository.DeleteFileAsync(id);
-            return Ok("File deleted successfully.");
-        }
-
-
-
-        [HttpPost("update-status")]
-        public async Task<IActionResult> UpdateStatus([FromBody] UpdateStatusDto request)
-        {
-            if (request == null || request.FileId <= 0 || string.IsNullOrWhiteSpace(request.Status))
-            {
-                return BadRequest(new { message = "Invalid request data." });
-            }
-
-            var success = await _fileRepository.UpdateFileStatusAsync(request.FileId, request.Status);
-
-            if (!success)
-            {
-                return BadRequest(new { message = "Invalid status value or file not found." });
-            }
-
-            return Ok(new { message = "Status updated successfully." });
+            return Ok(new { data = result });
         }
 
 
     }
-
 }

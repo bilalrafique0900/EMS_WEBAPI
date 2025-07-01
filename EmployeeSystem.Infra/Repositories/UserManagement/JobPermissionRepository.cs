@@ -18,6 +18,7 @@ namespace EmployeeSystem.Infra.Repositories.UserManagement
             _dbContext = appDbContext;
             _dapper = dapper;
         }
+
         public async Task<IEnumerable<JobPermissionDto>> GetJobPermissions()
         {
             var rec = await _dapper.QueryAsync<JobPermissionDto>("GetJobPermissions", new { }, CommandType.StoredProcedure).ConfigureAwait(true);

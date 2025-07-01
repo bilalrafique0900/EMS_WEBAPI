@@ -40,7 +40,7 @@ public partial class EmployeeDBContext : DbContext
     public virtual DbSet<PostHost> PostHosts { get; set; }
     public virtual DbSet<JobDescription> JobDescriptions { get; set; }
 
-    public virtual DbSet<Files> Files { get; set; }
+    public virtual DbSet<CV> CVs { get; set; }
     public virtual DbSet<Onboarding> Onboardings { get; set; }
 
     public virtual DbSet<Accessories> Accessories { get; set; }
